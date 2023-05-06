@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 114734209699886960}
   - component: {fileID: 114312999991697730}
   m_Layer: 0
-  m_Name: Member_Paladin_1
+  m_Name: Role_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,16 +210,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textFields:
     titleText:
-      textContent: Elara, the Paladin
+      textContent: LEND MONEY?
       textField: {fileID: 114090687538468844}
     questionText:
-      textContent: "\u56E2\u957F\uFF0C\u4F60\u7EC8\u4E8E\u9192\u4E86"
+      textContent: Lend the neighboring country 30 Gold, you will receive 10 Gold
+        back for 5 rounds.
       textField: {fileID: 114309495523116190}
     answerLeft:
-      textContent: "\u4F60\uFF1F"
+      textContent: Sounds good!
       textField: {fileID: 7094178792728724578}
     answerRight:
-      textContent: "\u6211\uFF1F"
+      textContent: You can't have my money!
       textField: {fileID: 2126860537302415206}
     answerUp:
       textContent: 
