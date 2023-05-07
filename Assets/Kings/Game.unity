@@ -45739,6 +45739,17 @@ MonoBehaviour:
       itemCmpValue: 1
       gamedictionary_key: 
       gamedictionary_comparer: 
+    - type: 0
+      value: 4
+      valueMin: 0
+      valueMax: 0
+      compareType: 0
+      rValue: 0
+      itemCompareType: 0
+      item: {fileID: 0}
+      itemCmpValue: 1
+      gamedictionary_key: 
+      gamedictionary_comparer: 
     groupCards:
     - {fileID: 1818390954452748, guid: dcbac29ed1ccf8548bc2198cb3f1b0bc, type: 3}
     - {fileID: 1818390954452748, guid: 3a823c5e4688c5443a89ef9df939ca70, type: 3}
@@ -45814,6 +45825,17 @@ MonoBehaviour:
       itemCmpValue: 1
       gamedictionary_key: 
       gamedictionary_comparer: 
+    - type: 0
+      value: 4
+      valueMin: 0
+      valueMax: 0
+      compareType: 0
+      rValue: 0
+      itemCompareType: 0
+      item: {fileID: 0}
+      itemCmpValue: 1
+      gamedictionary_key: 
+      gamedictionary_comparer: 
     groupCards:
     - {fileID: 1818390954452748, guid: 0bdfd35ce9011784fb01f98b11f702c4, type: 3}
     - {fileID: 1818390954452748, guid: 6a0c40b8b74ec61418637db8abbda674, type: 3}
@@ -45845,6 +45867,17 @@ MonoBehaviour:
       itemCmpValue: 1
       gamedictionary_key: 
       gamedictionary_comparer: 
+    - type: 0
+      value: 4
+      valueMin: 0
+      valueMax: 0
+      compareType: 0
+      rValue: 0
+      itemCompareType: 0
+      item: {fileID: 0}
+      itemCmpValue: 1
+      gamedictionary_key: 
+      gamedictionary_comparer: 
     groupCards:
     - {fileID: 1818390954452748, guid: a160d2c61f147f24c81faab48f164193, type: 3}
     - {fileID: 1818390954452748, guid: 3ea85d5b18fe64048be73987de4d02a7, type: 3}
@@ -45861,6 +45894,17 @@ MonoBehaviour:
       itemCmpValue: 1
       gamedictionary_key: 
       gamedictionary_comparer: 
+    - type: 0
+      value: 4
+      valueMin: 0
+      valueMax: 0
+      compareType: 0
+      rValue: 0
+      itemCompareType: 0
+      item: {fileID: 0}
+      itemCmpValue: 1
+      gamedictionary_key: 
+      gamedictionary_comparer: 
     groupCards:
     - {fileID: 1818390954452748, guid: 47de4d4368276014d82cfe00fecdf4b9, type: 3}
     - {fileID: 1818390954452748, guid: 594c791428d042b42897a261323bc491, type: 3}
@@ -45870,9 +45914,9 @@ MonoBehaviour:
   - groupName: Abyss
     subStackCondition:
     - type: 0
-      value: 22
-      valueMin: 0
-      valueMax: 0
+      value: 4
+      valueMin: 1
+      valueMax: 1000
       compareType: 0
       rValue: 0
       itemCompareType: 0

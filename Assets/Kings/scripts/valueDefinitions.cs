@@ -44,6 +44,9 @@ public class valueDefinitions : MonoBehaviour {
         mayor_police,
         mayor_money,
         mayor_level,
-        mayor_avatar
+        mayor_avatar,
+		abyss_main_line,//主线，理应一直增
+		abyss_main_branch,//控制分支情况，应该在1、2、3中切换
+		abyss_regular_stage //常规卡出现的阶段，例如Stage2里的卡不会出现在1中，防止错乱
 	}
 }

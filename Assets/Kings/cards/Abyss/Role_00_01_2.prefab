@@ -230,80 +230,19 @@ MonoBehaviour:
       textField: {fileID: 0}
     additionalTexts: []
   isHighPriorityCard: 1
-  isDrawable: 1
+  isDrawable: 0
   cardPropability: 1
   maxDraws: 100
   redrawBlockCnt: 5
-  conditions:
-  - type: 0
-    value: 21
-    valueMin: 0
-    valueMax: 0
-    compareType: 0
-    rValue: 0
-    itemCompareType: 0
-    item: {fileID: 0}
-    itemCmpValue: 1
-    gamedictionary_key: 
-    gamedictionary_comparer: 
-  - type: 0
-    value: 8
-    valueMin: 31
-    valueMax: 100
-    compareType: 0
-    rValue: 0
-    itemCompareType: 0
-    item: {fileID: 0}
-    itemCmpValue: 1
-    gamedictionary_key: 
-    gamedictionary_comparer: 
+  conditions: []
   Results:
     resultLeft:
       resultType: 0
       modifiers:
-        valueChanges:
-        - modificationType: 0
-          modifier: 8
-          valueAdd: -30
-          valueSet: 0
-          rndRangeAdd:
-            min: 0
-            max: 100
-          rndRangeSet:
-            min: 0
-            max: 100
-        - modificationType: 0
-          modifier: 21
-          valueAdd: 6
-          valueSet: 0
-          rndRangeAdd:
-            min: 0
-            max: 100
-          rndRangeSet:
-            min: 0
-            max: 100
-        extras:
-        - targetType: 3
-          itemChange:
-            modificationType: 0
-            item: {fileID: 0}
-            itemAmountAdd: 0
-            itemAmountSet: 0
-          dictionaryChange:
-            dictionaryAction: 0
-            key: 
-            value: 
-          questChange:
-            questAction: 0
-            quest: {fileID: 0}
-          historyEvent:
-            newHistoryEvent: {fileID: 11400000, guid: 088dcc39e7d4f2044b46d8c4476d118e,
-              type: 2}
-            additionalHistoryText: 
-          newGameLog:
-            subLogSelection: 0
-            text: 
-        followUpCard: {fileID: 0}
+        valueChanges: []
+        extras: []
+        followUpCard: {fileID: 1818390954452748, guid: f70200afb7d85b441a023e50ca4216a6,
+          type: 3}
         followUpDelay:
           min: 0
           max: 0
@@ -441,19 +380,10 @@ MonoBehaviour:
     resultRight:
       resultType: 0
       modifiers:
-        valueChanges:
-        - modificationType: 0
-          modifier: 6
-          valueAdd: -20
-          valueSet: 0
-          rndRangeAdd:
-            min: 0
-            max: 100
-          rndRangeSet:
-            min: 0
-            max: 100
+        valueChanges: []
         extras: []
-        followUpCard: {fileID: 0}
+        followUpCard: {fileID: 1818390954452748, guid: f70200afb7d85b441a023e50ca4216a6,
+          type: 3}
         followUpDelay:
           min: 0
           max: 0
@@ -592,17 +522,7 @@ MonoBehaviour:
   swipeType: 0
   additionalChoices: 0
   changeExtrasOnCardDespawn: []
-  changeValueOnCardDespawn:
-  - modificationType: 0
-    modifier: 4
-    valueAdd: 1
-    valueSet: 0
-    rndRangeAdd:
-      min: 0
-      max: 100
-    rndRangeSet:
-      min: 0
-      max: 100
+  changeValueOnCardDespawn: []
   OnCardSpawn:
     m_PersistentCalls:
       m_Calls: []

@@ -9,7 +9,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1818390954452748, guid: eca3ebe91a0d24c3ba1fedbdd41c4106, type: 3}
       propertyPath: m_Name
-      value: Role_00_Base
+      value: Role_00_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
+      propertyPath: isDrawable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
         type: 3}
@@ -28,8 +38,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
         type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u4E00\u4F4D\u8499\u7740\u515C\u5E3D\u7684\u8EAB\u5F71\u7A81\u7136\u51FA\u73B0\u5728\u8BAE\u4F1A\u524D\uFF0C\u6CA1\u6709\u4EFB\u4F55\u9884\u5146\u548C\u58F0\u97F3"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 4425752365669780714, guid: f86f76b6943414a9ea6f6f4281df37f4,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 4425752365669780714, guid: f86f76b6943414a9ea6f6f4281df37f4,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.extras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.valueChanges.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.valueChanges.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
         type: 3}

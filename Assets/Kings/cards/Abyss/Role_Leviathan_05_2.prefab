@@ -9,7 +9,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1818390954452748, guid: 9c3f62d10fadc468781e809756276875, type: 3}
       propertyPath: m_Name
-      value: Role_Leviathan_Base
+      value: Role_Leviathan_05_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
+        type: 3}
+      propertyPath: isDrawable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
         type: 3}
@@ -25,6 +35,11 @@ PrefabInstance:
         type: 3}
       propertyPath: textFields.answerRight.textContent
       value: "\u4E0D\u662F\uFF0C\u6211\u521A\u624D\u5728\u3002\u3002\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
         type: 3}

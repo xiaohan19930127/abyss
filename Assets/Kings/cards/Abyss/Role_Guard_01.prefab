@@ -9,7 +9,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1818390954452748, guid: f16146715c52b4cc8a5ab517570c2638, type: 3}
       propertyPath: m_Name
-      value: Role_Guard_Base
+      value: Role_Guard_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
+        type: 3}
+      propertyPath: isDrawable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
         type: 3}
@@ -28,8 +38,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
         type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
+        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u5927\u4EBA\uFF0C\u5723\u9A91\u58EB\u56E2\u62A5\u544ASacred Shrine\u533A\u57DF\u5927\u6559\u5802\u5185\u53D1\u751F\u7206\u70B8\uFF0C\u6709\u602A\u7269\u4ECE\u4E2D\u6D8C\u51FA"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 1959148518632061923, guid: 78eecdfcb367a40cca924afb82fa06ef,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 1959148518632061923, guid: 78eecdfcb367a40cca924afb82fa06ef,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.extras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.valueChanges.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: f16146715c52b4cc8a5ab517570c2638,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.valueChanges.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: f16146715c52b4cc8a5ab517570c2638,
         type: 3}

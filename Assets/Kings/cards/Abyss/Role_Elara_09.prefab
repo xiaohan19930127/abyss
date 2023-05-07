@@ -9,7 +9,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1818390954452748, guid: d4d1aacb1d5a86146bcc82292bd09334, type: 3}
       propertyPath: m_Name
-      value: Role_Elara_Base
+      value: Role_Elara_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: isDrawable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
@@ -25,6 +35,11 @@ PrefabInstance:
         type: 3}
       propertyPath: textFields.answerRight.textContent
       value: "\u8F9B\u82E6\u4E86"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}

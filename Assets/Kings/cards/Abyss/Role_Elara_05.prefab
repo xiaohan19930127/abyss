@@ -13,6 +13,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
+      propertyPath: isDrawable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
       propertyPath: textFields.titleText.textContent
       value: "\u827E\u62C9\u62C9 \u5723\u9A91\u58EB"
       objectReference: {fileID: 0}
@@ -28,8 +38,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u8FD9\u602A\u7269\u7684\u6BD2\u6027\u592A\u5F3A\uFF0C\u4E00\u4E9B\u5723\u9A91\u58EB\u4EEC\u90FD\u65E0\u529B\u518D..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 5805114399686288137, guid: 2e8a29a73fefd42a38ca7f742edac8e1,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 5805114399686288137, guid: 2e8a29a73fefd42a38ca7f742edac8e1,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.extras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.valueChanges.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.valueChanges.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
