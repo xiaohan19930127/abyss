@@ -45852,7 +45852,7 @@ MonoBehaviour:
     subStackCondition:
     - type: 0
       value: 22
-      valueMin: 1
+      valueMin: 100
       valueMax: 100
       compareType: 0
       rValue: 0
@@ -45887,6 +45887,10 @@ MonoBehaviour:
     - {fileID: 1818390954452748, guid: 9a7f2152a15ef4bf08a1416a83227803, type: 3}
     - {fileID: 1818390954452748, guid: d59863ef00b234ecf8bdef2f75e895d0, type: 3}
     - {fileID: 1818390954452748, guid: 9d38a9100919345e69d5bda2c342288e, type: 3}
+    - {fileID: 1818390954452748, guid: 798b9d1334bd349d98c07d278f95f312, type: 3}
+    - {fileID: 1818390954452748, guid: 153e0450be7094610abf54c64743d396, type: 3}
+    - {fileID: 1818390954452748, guid: d8469fda7d73f4ea9bb885ad771dc5df, type: 3}
+    - {fileID: 1818390954452748, guid: 852f969936505483880dd8d46d18a218, type: 3}
   cardDrawCount:
     cnt: []
   cardBlockCount:

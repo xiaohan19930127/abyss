@@ -79,7 +79,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Elara, the Paladin
+  m_Text: Name
 --- !u!1 &1818390954452748
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 114734209699886960}
   - component: {fileID: 114312999991697730}
   m_Layer: 0
-  m_Name: Role_Leviathan_Base
+  m_Name: Role_Isadora_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -640,7 +640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f042d6af56c08a4e889374df48d1c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  style: {fileID: 11400000, guid: 83e3c04e94b894a268b58574945f4564, type: 2}
+  style: {fileID: 11400000, guid: c46b13f53a9a245e5bef572a7007c432, type: 2}
   cardImages:
     color: {r: 1, g: 1, b: 1, a: 1}
     front: {fileID: 114691296766683156}
@@ -725,7 +725,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u56E2\u957F\uFF0C\u4F60\u7EC8\u4E8E\u9192\u4E86\uFF01"
+  m_Text: ' Question Text'
 --- !u!1 &1784584867218357195
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 42eef4d994b8c6440b23a0e97c986db4, type: 3}
     m_FontSize: 50
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 99
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 42eef4d994b8c6440b23a0e97c986db4, type: 3}
     m_FontSize: 50
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 99
@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eed08f1a5d2794997a032f5fca08b832, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 246012303149a43909eb6809636f3814, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &224672841774909142
 RectTransform:
   m_ObjectHideFlags: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 42eef4d994b8c6440b23a0e97c986db4, type: 3}
     m_FontSize: 50
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 111
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 114734209699886960}
   - component: {fileID: 114312999991697730}
   m_Layer: 0
-  m_Name: Role_00_01
+  m_Name: Role_Seraphina_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,6 +115,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 224672841774909142}
+  - {fileID: 224206319859092360}
   - {fileID: 4019395957010094457}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -210,17 +211,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textFields:
     titleText:
-      textContent: 
+      textContent: "\u585E\u62C9\u83F2\u5A1C \u796D\u7940/\u523A\u5BA2"
       textField: {fileID: 114090687538468844}
     questionText:
-      textContent: "....\u57CE\u5E02\u4E0D\u518D\u56DE\u5E94...                        
-        \u4F60\u53EA\u80FD\u72EC\u81EA\u5230\u8FBE\u6DF1\u6E0A\u8BAE\u4F1A"
+      textContent: "\u6709\u4EF6\u4E8B\u6211\u5FC5\u987B\u5F97\u5230\u60A8\u7684\u56DE\u7B54\uFF0C\u5371\u673A\u65F6\u523B\uFF0C\u5982\u4F55\u786E\u4FDD\u6211\u4EEC\u57CE\u5E02\u7684\u56E2\u7ED3\uFF1F"
       textField: {fileID: 114309495523116190}
     answerLeft:
-      textContent: 
+      textContent: "\u4E92\u76F8\u4FE1\u4EFB\u548C\u7406\u89E3"
       textField: {fileID: 7094178792728724578}
     answerRight:
-      textContent: 
+      textContent: "\u4E0D\u5F3A\u6C42\u56E2\u7ED3\uFF0C\u6211\u76F8\u4FE1\u6BCF\u4E2A\u4EBA"
       textField: {fileID: 2126860537302415206}
     answerUp:
       textContent: 
@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f042d6af56c08a4e889374df48d1c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  style: {fileID: 11400000, guid: 8a6bbd79d9d97489f92ece2dc97314c5, type: 2}
+  style: {fileID: 11400000, guid: 7f9b43756e80949cd9d5be4f3bb2a37e, type: 2}
   cardImages:
     color: {r: 1, g: 1, b: 1, a: 1}
     front: {fileID: 114691296766683156}
@@ -675,12 +675,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4019395957010094457}
-  m_RootOrder: 4
+  m_Father: {fileID: 224275568673289112}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 5}
+  m_AnchoredPosition: {x: 0, y: 437}
   m_SizeDelta: {x: 800, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222561243514118444
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.22352941, g: 0.22352941, b: 0.22352941, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -720,11 +720,11 @@ MonoBehaviour:
     m_MaxSize: 99
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "....\u57CE\u5E02\u4E0D\u518D\u56DE\u5E94...\n\u4F60\u53EA\u80FD\u72EC\u81EA\u5230\u8FBE\u6DF1\u6E0A\u8BAE\u4F1A"
+  m_Text: "\u56E2\u957F\uFF0C\u4F60\u7EC8\u4E8E\u9192\u4E86\uFF01"
 --- !u!1 &1784584867218357195
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,7 +742,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8589012953338264080
 RectTransform:
   m_ObjectHideFlags: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 42eef4d994b8c6440b23a0e97c986db4, type: 3}
     m_FontSize: 50
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 99
@@ -822,7 +822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &679946010073343376
 RectTransform:
   m_ObjectHideFlags: 0
@@ -874,7 +874,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: 42eef4d994b8c6440b23a0e97c986db4, type: 3}
     m_FontSize: 50
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
     m_MaxSize: 99
@@ -921,9 +921,8 @@ RectTransform:
   - {fileID: 3797406265593594243}
   - {fileID: 8589012953338264080}
   - {fileID: 679946010073343376}
-  - {fileID: 224206319859092360}
   m_Father: {fileID: 224275568673289112}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1059,7 +1058,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e787d940eecb74180bb3ead39a64feb1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eca73e7431221443daeb5a8d03a2d238, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1086,7 +1085,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3797406265593594243
 RectTransform:
   m_ObjectHideFlags: 0
