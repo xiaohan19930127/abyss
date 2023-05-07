@@ -45867,7 +45867,7 @@ MonoBehaviour:
     - {fileID: 1818390954452748, guid: 41999f9f1493d1841b9f25b30210f724, type: 3}
     - {fileID: 1818390954452748, guid: a3535f252715bf444aecf603dfe05d76, type: 3}
     - {fileID: 1818390954452748, guid: e8aff9d52ef8bac4b8624b81a72b4130, type: 3}
-  - groupName: New
+  - groupName: Abyss
     subStackCondition:
     - type: 0
       value: 22
@@ -45882,6 +45882,11 @@ MonoBehaviour:
       gamedictionary_comparer: 
     groupCards:
     - {fileID: 1818390954452748, guid: f70200afb7d85b441a023e50ca4216a6, type: 3}
+    - {fileID: 1818390954452748, guid: 16b54e9c22e924267bcd10ebc9b6a4a4, type: 3}
+    - {fileID: 1818390954452748, guid: 40c981b0d364f49f8b38ce128851778b, type: 3}
+    - {fileID: 1818390954452748, guid: 9a7f2152a15ef4bf08a1416a83227803, type: 3}
+    - {fileID: 1818390954452748, guid: d59863ef00b234ecf8bdef2f75e895d0, type: 3}
+    - {fileID: 1818390954452748, guid: 9d38a9100919345e69d5bda2c342288e, type: 3}
   cardDrawCount:
     cnt: []
   cardBlockCount:
