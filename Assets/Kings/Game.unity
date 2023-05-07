@@ -14353,6 +14353,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277533928}
   m_CullTransparentMesh: 0
+--- !u!1 &290817262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 290817263}
+  - component: {fileID: 290817264}
+  m_Layer: 0
+  m_Name: Abyss_regular_stage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &290817263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290817262}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1760999219}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &290817264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290817262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26748c1f51a9aa41b86d84f82419c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valueType: 36
+  value: 0
+  debugValueChanges: 0
+  UserInterface:
+    uiScrollbar: {fileID: 0}
+    uiSlider: {fileID: 0}
+    lerpEnable: 0
+    lerpSpeed: 15
+    formatter: 0
+    lerpedValue: 0
+    textValue: {fileID: 0}
+    showActualization: 0
+    miniatureSprite: {fileID: 0}
+    valueDependingIcons:
+      baseIcons: []
+      valueIcon: []
+    valueChangePreview:
+      valueChangeImage: {fileID: 0}
+      valueChangeText: {fileID: 0}
+  limits:
+    min: 1
+    max: 99
+    randomMin: 0
+    randomMax: 0
+    roundToWholeNumbers: 1
+  keepValue: 0
+  events:
+    OnIncrease:
+      m_PersistentCalls:
+        m_Calls: []
+    OnDecrease:
+      m_PersistentCalls:
+        m_Calls: []
+    OnMax:
+      m_PersistentCalls:
+        m_Calls: []
+    OnMin:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &292464336
 GameObject:
   m_ObjectHideFlags: 0
@@ -38077,6 +38160,89 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1033965475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033965476}
+  - component: {fileID: 1033965477}
+  m_Layer: 0
+  m_Name: Abyss_main_branch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1033965476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033965475}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1760999219}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1033965477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033965475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26748c1f51a9aa41b86d84f82419c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valueType: 35
+  value: 0
+  debugValueChanges: 0
+  UserInterface:
+    uiScrollbar: {fileID: 0}
+    uiSlider: {fileID: 0}
+    lerpEnable: 0
+    lerpSpeed: 15
+    formatter: 0
+    lerpedValue: 0
+    textValue: {fileID: 0}
+    showActualization: 0
+    miniatureSprite: {fileID: 0}
+    valueDependingIcons:
+      baseIcons: []
+      valueIcon: []
+    valueChangePreview:
+      valueChangeImage: {fileID: 0}
+      valueChangeText: {fileID: 0}
+  limits:
+    min: 1
+    max: 3
+    randomMin: 0
+    randomMax: 0
+    roundToWholeNumbers: 1
+  keepValue: 0
+  events:
+    OnIncrease:
+      m_PersistentCalls:
+        m_Calls: []
+    OnDecrease:
+      m_PersistentCalls:
+        m_Calls: []
+    OnMax:
+      m_PersistentCalls:
+        m_Calls: []
+    OnMin:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1037588824
 GameObject:
   m_ObjectHideFlags: 0
@@ -39081,6 +39247,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118342350}
   m_CullTransparentMesh: 0
+--- !u!1 &1118400233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1118400234}
+  - component: {fileID: 1118400235}
+  m_Layer: 0
+  m_Name: Abyss_main_line
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1118400234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118400233}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1760999219}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1118400235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118400233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26748c1f51a9aa41b86d84f82419c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valueType: 34
+  value: 0
+  debugValueChanges: 0
+  UserInterface:
+    uiScrollbar: {fileID: 0}
+    uiSlider: {fileID: 0}
+    lerpEnable: 0
+    lerpSpeed: 15
+    formatter: 0
+    lerpedValue: 0
+    textValue: {fileID: 0}
+    showActualization: 0
+    miniatureSprite: {fileID: 0}
+    valueDependingIcons:
+      baseIcons: []
+      valueIcon: []
+    valueChangePreview:
+      valueChangeImage: {fileID: 0}
+      valueChangeText: {fileID: 0}
+  limits:
+    min: 0
+    max: 10000
+    randomMin: 0
+    randomMax: 0
+    roundToWholeNumbers: 1
+  keepValue: 0
+  events:
+    OnIncrease:
+      m_PersistentCalls:
+        m_Calls: []
+    OnDecrease:
+      m_PersistentCalls:
+        m_Calls: []
+    OnMax:
+      m_PersistentCalls:
+        m_Calls: []
+    OnMin:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1132481321
 GameObject:
   m_ObjectHideFlags: 0
@@ -46684,8 +46933,6 @@ MonoBehaviour:
   spriteIndex: 0
   imageSets:
   - sprite: {fileID: 21300000, guid: 3c8032f6773cd75458e66e20b6704c2e, type: 3}
-    color: {r: 1, g: 1, b: 1, a: 1}
-  - sprite: {fileID: 21300000, guid: 67c934704f26e2741bd405dde3fa1837, type: 3}
     color: {r: 1, g: 1, b: 1, a: 1}
   testNextImage: 0
 --- !u!114 &1200817028
@@ -60776,6 +61023,9 @@ Transform:
   - {fileID: 1897439310}
   - {fileID: 1062229594}
   - {fileID: 649238000}
+  - {fileID: 1118400234}
+  - {fileID: 1033965476}
+  - {fileID: 290817263}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

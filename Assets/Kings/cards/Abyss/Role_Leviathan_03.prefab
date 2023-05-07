@@ -382,7 +382,7 @@ MonoBehaviour:
       modifiers:
         valueChanges: []
         extras: []
-        followUpCard: {fileID: 1818390954452748, guid: 9d38a9100919345e69d5bda2c342288e,
+        followUpCard: {fileID: 1818390954452748, guid: 798b9d1334bd349d98c07d278f95f312,
           type: 3}
         followUpDelay:
           min: 0
