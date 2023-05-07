@@ -1,65 +1,43 @@
-GroupName;CardName;StyleName;EventScript.titleText;EventScript.questionText;EventScript.answerLeft;EventScript.answerRight;EventScript.answerUp;EventScript.answerDown
-General;_StartCard;cs_King;You are now King!;you can check your stats by clicking on the top panel;i have waited a long time for this!;i will try my best to be a good king;;
-General;Admob;cs_Ads;Advertisement;Want to show a quick video to increase all stats?;Sure!;No :(;;
-General;Army_parade;cs_Army;Army;The army wants to hold a big parade?;Sure;We don`t have the money for this;;
-General;Army_Weapons;cs_Army;Army;The Army wants better Weapons;Sure;Your Weapons are good enough;;
-General;Conditional_AuthorityCharisma;cs_King;ConditionalCard;Choose your stronger stat;Try it with your Authority (you need 50+);Charisma, i choose you! (you need 50+);;
-General;Conditional_MarriageLookIntelligence;cs_Marriage;Marriage;Which Princess do you want to marry?;The Beautiful One;The Smart One;;
-General;Conditional_RandomConditionsLuck;cs_King;Random & Luck;Swipe left to randomly increase one stat, swipe right to increase or decrease all 4 stats.;Random;I am feeling lucky;;
-General;Fallback_GameOver;cs_None;;This should not happen! There is no available card left, you are now dead.;;;;
-General;FollowUp_MarriedFail1;cs_Marriage;Proposal declined;The princess is not interessted in you, because you are too ugly...;Oh no...;Oh no...;;
-General;FollowUp_MarriedFail2;cs_Marriage;Proposal declined;The princess is not interessted in you, because you are too stupid...;Oh no...;Oh no...;;
-General;FollowUp_MarriedSuccess1;cs_Marriage;Married;Congratulation! You are now married!;Nice!;Nice!;;
-General;FollowUp_MarriedSuccess2;cs_Marriage;Married;Congratulation! You are now married!;Nice!;Nice!;;
-General;FourWaySwipe;cs_None;FOUR WAY SWIPE;Which faction do you want to support?;Army;People;Religion;Money
-General;GameOver__Log;cs_None;;;;;;
-General;GameOver__Score;cs_None;Game Over;;;;;
-General;GameOver__Timeline;cs_None;;;;;;
-General;GameOver_Army;cs_GameOver;Game Over;The army put you in prison!;Oh no!;Why!?;;
-General;GameOver_Money;cs_GameOver;Game Over;Your Kingdom is bankrupt!;Oh no!;Why!?;;
-General;GameOver_MoneyContinue;cs_GameOver;Game Over?;Your Kingdom is bankrupt! But you could use your Money Chest to continue playing?;Open the Chest!;No, i want to keep it!;;
-General;GameOver_People;cs_GameOver;Game Over;You lost the trust of your people. They started a revolt.;Oh no!;Why!?;;
-General;GameOver_Religion;cs_GameOver;Game Over;Some fanatics crucified you!;Oh no!;Why!?;;
-General;MagicBean;cs_King;Magic Bean;The Magic Bean you planted, grew only a normal sized bean vine :(;Damn!;Bring me the Head of this Merchant!;;
-General;MagicChicken;cs_King;Magic Chicken;Your Magic Chicken died this morning while laying its last egg...;Oh no!;Oh no!;;
-General;Merchant;cs_None;Merchant;A strange looking, travelling Merchant is offering some of his goods;Magic Bean - 10 Gold;Mysterious Egg - 20 Gold;Crystall Ball - 15 Gold;I don't want any of these
-General;MoneyCredit;cs_Money;LEND MONEY?;Lend the neighboring country 30 Gold, you will receive 10 Gold back for 5 rounds.;Sounds good!;You can't have my money!;;
-General;MultichoiceCard;cs_None;Multichoice;Choose one to increase, the others will decline;ARMY;PEOPLE;RELIGION;MONEY
-General;newcardtmplts0;CardStyle_t00;Card Templates;With this update new card templates have been added, want to see them?;Sure!;No;;
-General;newcardtmplts1;CardStyle_t01;Template Card 01;Show the next card template?;Sure!;No!;;
-General;newcardtmplts2;CardStyle_t02;Template Card 02;Show the next card template?;Sure!;No!;;
-General;newcardtmplts3;CardStyle_t03;Template Card 03;Quesion Text;Answer Left;Answer Right;;
-General;newcardtmplts4;CardStyle_t04;Card Template 04;Multichoice Card;Answer 1;Answer 2;Answer 3;Answer 4
-General;NoMovingTextCard;cs_None;Army;The army want to hold a big parade?;Sure;We don`t have the money for this;;
-General;People_army;cs_People;People;The people want the soldiers to work on their fields in times of peace;Great idea!;Sorry thats not possible;;
-General;People_eatinchurch;cs_People;People;The people want to eat lunch in church;Great idea!;Sorry thats not possible;;
-General;People_taxes;cs_People;People;The people ask for lower taxes;Fine;Sorry thats not possible;;
-General;PlayerLevel2;cs_King;LEVEL UP!;You have quite some experience as a ruler, this allows new cards to appear.;Great!;Great!;;
-General;PlayerLevel2_finances;cs_Money;Advanced Finances;Your finance advisor makes a confusing suggestion to restructure your money;I did not understand a thing, but fine.;No, better not.;;
-General;Religion_cathedral;cs_Religion;Religion;The church wants to build a huge cathedral?;Ok;Sorry, we don`t have the money for this...;;
-General;Religion_holywar;cs_Religion;Religion;The church wants to start a new holy war?;Fine;No!;;
-General;Religion_killFirstborn;cs_Religion;Religion;The church wants to kill all the firstborn;Sure, why not...;Hell no!;;
-General;SelectKing;cs_None;Select Ruler;Question Text;George the Mighty;Louis the Great;Elizabeth the Ruler;Maria the Skinny
-General;ValueChangesValue;cs_Money;Money;Give away half of your total wealth ({value=money,format=0} Gold) to make all 3 factions happy?;Ok;No!;;
-General;Years_30_Achievement;cs_King;30 Years;Congratulation! You are now ruling since 30 years.;Great!;Great!;;
-General;War_start;cs_War;Go to War?;Do you want to start a war with the neighbouring kingdom?;Sure, i hated them from the start!;No, better not.;;
-General;War_surrender;cs_War;You surrendered!;Your reputation suffered and most of your money has been taken away.;Why me??;Oh, no ...;;
-General;Witch_ShowResults;cs_None;Witch;A Witch offers you to show you the future for a bit of your gold?;Sounds good!;No, better not.;;
-General;Years_5_Achievement;cs_King;5 Years;Congratulation! You are now ruling since 5 years.;Great!;Great!;;
-General;Years_10_Achievement;cs_King;10 Years;Congratulation! You are now ruling since 10 years.;Great!;Great!;;
-General;Years_20_Achievement;cs_King;20 Years;Congratulation! You are now ruling since 20 years.;Great!;Great!;;
-General;Timer;cs_Religion;Timer;Left or right, make a quick decision!;I can't handle this pressure...;No idea, what i should be doing...;;
-Marriage;Marriage_divorce;cs_Marriage;Divorce;The Queen left you because you dont care enough for her;Oh no...;Ok;;
-Marriage;Marriage_renovate;cs_Marriage;Marriage;The Queen wants to renovate the castle;Sure;No! Everything stays like it is.;;
-Marriage;Marriage_spider;cs_Marriage;Marriage;The Queen found a big spider in the bedroom. She asks to burn down the whole castle?;Sounds good;No!;;
-Marriage;Marriage_summercastle;cs_Marriage;Marriage;The Queen wants to buy a castle in the neighbor kingdom for the summer?;Ok...;No! That`s madness!;;
-Marriage;Marriage_child_born;cs_Marriage;Child;The Queen has born you a son, how do you want to name him? Select a premade one or enter a custom name below and swipe in any direction.;Charles;Henry;;
-Marriage;Marriage_child_crossbow;cs_Marriage;Child;Your son {dict=Child} wants to play with the crossbow?;Sure, what should go wrong??;Better not...;;
-Ads;Ad_General;cs_Ads;Advertisement;Want to show a quick video to increase all stats?;Sure!;No :(;;
-Ads;Ad_People;cs_Ads;People;The people are getting frustrated! Watch ad to make them happy?;Sure!;No :(;;
-War;War_defeat;cs_War;WAR LOST!;Your army was weaker than the enemy army...;Oh no!;Oh no!;;
-War;War_firstAttack;cs_War;FIRST ATTACK;Choose the first attack target;Cut off their food supplies to weaken them;Screw tactics, attack them directly!;;
-War;War_secondAttack;cs_War;SECOND ATTACK;Choose the second attack target;Cut off their reinforcements;I am bored of this, attack them directly!;;
-War;War_thirdAttack;cs_War;THIRD ATTACK;Choose the third attack target;It's finally time to attack their main forces!;I changed my mind, let's retreat quietly...;;
-War;War_victory;cs_War;WAR WON!;You defeated the other kingdom!;Awesome!;Awesome!;;
-
+GroupName,CardName,StyleName,EventScript.titleText,EventScript.questionText,EventScript.answerLeft,EventScript.answerRight,EventScript.answerUp,EventScript.answerDown
+Abyss,Role_Leviathan_01,cs_Role_Leviathan,神秘回声,恭喜，大人，您被选中带领我们踏上征途。,你？,我？,,
+Abyss,Role_Leviathan_02_1,cs_Role_Leviathan,神秘回声,我能控制前进的方向。我们将共同带领城民穿越混乱的深渊。,（点头）,然后？,,
+Abyss,Role_Leviathan_02_2,cs_Role_Leviathan,神秘回声,你是被选中的人，这座城市的主人。你的命运在深渊中等待着。,（点头）,然后？,,
+Abyss,Role_Leviathan_03,cs_Role_Leviathan,神秘回声,大人，深渊议会将要开始，我们城市的命运掌握在您的手中。仔细聆听并做出明智的选择,好,你要帮我,,
+Abyss,Role_00_01_1,cs_Role_00,,你独自到达深渊议会,,,,
+Abyss,Role_00_01_2,cs_Role_00,,....城市不再回应...                         你只能独自到达深渊议会,,,,
+Abyss,Role_Elara_01,cs_Role_Elara,艾拉拉 圣骑士,大人，我们近期的军事目标是什么？,防御为主，保障安全,主动出击，增加威慑,,
+Abyss,Role_Isadora_01,cs_Role_Isadora,伊莎多拉 魔法师,我们应该如何获取稀有的魔法材料进行研究？,买,我相信魔法师制作材料的能力,,
+Abyss,Role_Eira_01,cs_Role_Eira,埃拉 牧师,大人，城民们最近有些不满的情绪,开放更多福利,我只能同情,,
+Abyss,Role_Seraphina_01,cs_Role_Seraphina,塞拉菲娜 祭祀/刺客,有件事我必须得到您的回答，危机时刻，如何确保我们城市的团结？,互相信任和理解,不强求团结，我相信每个人,,
+Abyss,Role_00_02,cs_Role_00,,一位蒙着兜帽的身影突然出现在议会前，没有任何预兆和声音,,,,
+Abyss,Role_Mystery_01,cs_Role_Mystery,？？？,嗨，我的新任城主大人，你好啊！,卫兵！,你是谁？,,
+Abyss,Role_Mystery_02,cs_Role_Mystery,？？？,我来是想告诉你，我将召唤伟大的生物降临,快阻止他,你说什么？,,
+Abyss,Role_Mystery_03,cs_Role_Mystery,？？？,这种城市都将是我用来唤醒伟大的道具,你疯了吗？,我会阻止你！,,
+Abyss,Role_00_03,cs_Role_00,,来人直接消失了，没有任何预兆和声音,,,,
+Abyss,Role_00_04,cs_Role_00,,轰，城内传来可怕的声响！,,,,
+Abyss,Role_Guard_01,cs_Role_Guard,卫兵,大人，圣骑士团报告Sacred Shrine区域大教堂内发生爆炸，有怪物从中涌出,爆炸？,城民危险了,,
+Abyss,Role_Guard_02,cs_Role_Guard,卫兵,人手正在召集，您是要？,去爆炸中心,去猎杀怪兽,,
+Abyss,Role_Elara_02,cs_Role_Elara,艾拉拉 圣骑士,大人，感谢您的帮助，请跟我来，愿黄金之王庇佑,（点头）,愿黄金之王庇佑,,
+Abyss,Role_00_05,cs_Role_00,,您跟随着圣骑士来到了教堂内，一只正在大肆破坏的怪物注意到了你们,,,,
+Abyss,Role_Hiss_01,cs_Role_Hiss,希斯 未知产物,吼！！！怪物发出怒吼，摆出了攻击姿态！,这...,那...,,
+Abyss,Role_Elara_03,cs_Role_Elara,艾拉拉 圣骑士,骑士团，准备战斗,我来帮你们,我来做后援,,
+Abyss,Role_Hiss_01_1,cs_Role_Hiss,希斯 未知产物,骑士团迅速布置好了阵型，而你也在其中，怪物向你们扑来,向左闪避,向右闪避,,
+Abyss,Role_Elara_04_1,cs_Role_Elara,艾拉拉 圣骑士,好险！我们闪开了怪物的攻击,攻击左边,攻击右边,,
+Abyss,Role_Hiss_01_2,cs_Role_Hiss,希斯 未知产物,你在队伍后方使用简单弩箭协助，怪物向骑士团扑去,（射它的眼睛）,（射它的脚）,,
+Abyss,Role_Elara_04_2,cs_Role_Elara,艾拉拉 圣骑士,感谢大人，所有人退后！大人，请再次帮助我们！,（先治疗战士）,（先观察战况）,,
+Abyss,Role_Hiss_02,cs_Role_Hiss,希斯 未知产物,怪物发出一阵嘶吼，张口吐出了毒液,散开！,顶住！,,
+Abyss,Role_Elara_05,cs_Role_Elara,艾拉拉 圣骑士,这怪物的毒性太强，一些圣骑士们都无力再...,危险，快躲开！,危险，快躲开！,,
+Abyss,Role_00_06,cs_Role_00,,你冲上前去，护住克拉拉，怪物攻击你的一瞬间就失去了意识,,,,
+Abyss,Role_Leviathan_04,cs_Role_Leviathan,神秘回声,恭喜，大人，您被选中带领我们踏上征途。,什么？我怎么在这？,我要离开这里，现在！,,
+Abyss,Role_Leviathan_05_1,cs_Role_Leviathan,神秘回声,你是被选中的人，这座城市的主人。你的命运在深渊中等待着。,马上开会？,不是，我刚才在。。。,,
+Abyss,Role_Leviathan_05_2,cs_Role_Leviathan,神秘回声,你的命运在深渊中等待着，你逃不掉的，城主大人。,马上开会？,不是，我刚才在。。。,,
+Abyss,Role_Leviathan_06_1,cs_Role_Leviathan,神秘回声,咦，看来你已经掌握了成为城主的基本条件，那么祝你好运,等等,你到底是？,,
+Abyss,Role_Leviathan_06_2,cs_Role_Leviathan,神秘回声,深渊议会马上开始了，我们城市的命运掌握在您的手中。仔细聆听并做出明智的选择,等等,你到底是？,,
+Abyss,Role_00_01_3,cs_Role_00,,....城市不再回应...                         你独自到达深渊议会,,,,
+Abyss,Role_Elara_06,cs_Role_Elara,艾拉拉 圣骑士,大人，你是说，要我们立刻前往Sacred Shrine区域大教堂对吗？,是的，要快,在多组织点人手,,
+Abyss,Role_00_07,cs_Role_00,,你停止了会议的进行，等待着圣骑士团的归来，不一会儿，圣骑士团众人返回,,,,
+Abyss,Role_Elara_07,cs_Role_Elara,艾拉拉 圣骑士,大人，我们已经去看过了,结果呢？,继续说？,,
+Abyss,Role_Elara_08,cs_Role_Elara,艾拉拉 圣骑士,那边确实有一个未完成的召唤仪式,那里还有什么吗？,然后呢？,,
+Abyss,Role_Elara_09,cs_Role_Elara,艾拉拉 圣骑士,现场遗留一些咒语一样的记录，都在这里了,好的,辛苦了,,
+Abyss,Role_Elara_10,cs_Role_Elara,艾拉拉 圣骑士,大人，您似乎过于谨慎了，这些东西看起来没有任何危险,是吗？,我明白的,,
+Abyss,Role_00_08,cs_Role_00,,议会结束，众人似乎对你的小题大做议论纷纷,,,,

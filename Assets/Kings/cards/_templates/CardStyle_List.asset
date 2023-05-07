@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -28,3 +29,12 @@ MonoBehaviour:
   - style: {fileID: 11400000, guid: 1bc0f199d12f78b4595f9b10c1357742, type: 2}
   - style: {fileID: 11400000, guid: bbc769dcc062d684297c14c846e09d33, type: 2}
   - style: {fileID: 11400000, guid: ca0ef790043d57c4ca9122be685b7ba7, type: 2}
+  - style: {fileID: 11400000, guid: 8a6bbd79d9d97489f92ece2dc97314c5, type: 2}
+  - style: {fileID: 11400000, guid: 7ee8818c847854a0582d4a2fad2050cc, type: 2}
+  - style: {fileID: 11400000, guid: 03a4f2646bdd82448814aef7a6f9017f, type: 2}
+  - style: {fileID: 11400000, guid: c46b13f53a9a245e5bef572a7007c432, type: 2}
+  - style: {fileID: 11400000, guid: 83e3c04e94b894a268b58574945f4564, type: 2}
+  - style: {fileID: 11400000, guid: 7f9b43756e80949cd9d5be4f3bb2a37e, type: 2}
+  - style: {fileID: 11400000, guid: 36d3084913178462b8b1015ea986c9d6, type: 2}
+  - style: {fileID: 11400000, guid: 6ec13c200b8a444c1a707264aa19b7e6, type: 2}
+  - style: {fileID: 11400000, guid: e70e1af177df8400b840e0df1fce1a88, type: 2}
