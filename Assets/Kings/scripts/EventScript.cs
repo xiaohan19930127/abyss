@@ -401,12 +401,18 @@ public class EventScript : MonoBehaviour {
     //Try to translate and write the configurated texts to their text-fields. 
     void writeTextFields()
     {
-        writeEventTextField(textFields.titleText, TextReplacement.TranslateAndReplace(textFields.titleText.textContent));
-        writeEventTextField(textFields.questionText, TextReplacement.TranslateAndReplace(textFields.questionText.textContent));
-        writeEventTextField(textFields.answerLeft, TextReplacement.TranslateAndReplace(textFields.answerLeft.textContent));
-        writeEventTextField(textFields.answerRight, TextReplacement.TranslateAndReplace(textFields.answerRight.textContent));
-        writeEventTextField(textFields.answerUp, TextReplacement.TranslateAndReplace(textFields.answerUp.textContent));
-        writeEventTextField(textFields.answerDown, TextReplacement.TranslateAndReplace(textFields.answerDown.textContent));
+        //writeEventTextField(textFields.titleText, TextReplacement.TranslateAndReplace(textFields.titleText.textContent));
+        //writeEventTextField(textFields.questionText, TextReplacement.TranslateAndReplace(textFields.questionText.textContent));
+        //writeEventTextField(textFields.answerLeft, TextReplacement.TranslateAndReplace(textFields.answerLeft.textContent));
+        //writeEventTextField(textFields.answerRight, TextReplacement.TranslateAndReplace(textFields.answerRight.textContent));
+        //writeEventTextField(textFields.answerUp, TextReplacement.TranslateAndReplace(textFields.answerUp.textContent));
+        //writeEventTextField(textFields.answerDown, TextReplacement.TranslateAndReplace(textFields.answerDown.textContent));
+        writeEventTextField(textFields.titleText, TextReplacement.TranslateAndReplace(textFields.titleText.textContent).Replace("\\n", "\n"));
+        writeEventTextField(textFields.questionText, TextReplacement.TranslateAndReplace(textFields.questionText.textContent).Replace("\\n", "\n"));
+        writeEventTextField(textFields.answerLeft, TextReplacement.TranslateAndReplace(textFields.answerLeft.textContent).Replace("\\n", "\n"));
+        writeEventTextField(textFields.answerRight, TextReplacement.TranslateAndReplace(textFields.answerRight.textContent).Replace("\\n", "\n"));
+        writeEventTextField(textFields.answerUp, TextReplacement.TranslateAndReplace(textFields.answerUp.textContent).Replace("\\n", "\n"));
+        writeEventTextField(textFields.answerDown, TextReplacement.TranslateAndReplace(textFields.answerDown.textContent).Replace("\\n", "\n"));
 
 
         if (textFields.additionalTexts != null)
@@ -421,6 +427,7 @@ public class EventScript : MonoBehaviour {
             }
         }
     }
+
 
 
     void writeEventTextField(eventText et, string txt)

@@ -45940,7 +45940,7 @@ MonoBehaviour:
       m_PostInfinity: 1
       m_RotationOrder: 4
     idleActive: 0
-    startIdle: 1
+    startIdle: 0
     touchCount: 0
     idleTime: 0
     evaluation: 0

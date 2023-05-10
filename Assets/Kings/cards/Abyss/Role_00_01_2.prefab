@@ -213,8 +213,7 @@ MonoBehaviour:
       textContent: 
       textField: {fileID: 114090687538468844}
     questionText:
-      textContent: "....\u57CE\u5E02\u4E0D\u518D\u56DE\u5E94...                        
-        \u4F60\u53EA\u80FD\u72EC\u81EA\u5230\u8FBE\u6DF1\u6E0A\u8BAE\u4F1A"
+      textContent: "....\u57CE\u5E02\u4E0D\u518D\u56DE\u5E94...\\n\u4F60\u53EA\u80FD\u72EC\u81EA\u5230\u8FBE\u6DF1\u6E0A\u8BAE\u4F1A"
       textField: {fileID: 114309495523116190}
     answerLeft:
       textContent: 

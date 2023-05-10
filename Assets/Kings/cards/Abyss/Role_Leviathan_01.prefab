@@ -215,7 +215,7 @@ MonoBehaviour:
       textContent: "\u795E\u79D8\u56DE\u58F0"
       textField: {fileID: 114090687538468844}
     questionText:
-      textContent: "\u606D\u559C\uFF0C\u5927\u4EBA\uFF0C\u60A8\u88AB\u9009\u4E2D\u5E26\u9886\u6211\u4EEC\u8E0F\u4E0A\u5F81\u9014\u3002"
+      textContent: "\u606D\u559C\uFF0C\u5927\u4EBA\\n\u60A8\u88AB\u9009\u4E2D\u5E26\u9886\u6211\u4EEC\u8E0F\u4E0A\u5F81\u9014\u3002"
       textField: {fileID: 114309495523116190}
     answerLeft:
       textContent: "\u4F60\uFF1F"
@@ -958,6 +958,7 @@ GameObject:
   - component: {fileID: 3894190468066157780}
   - component: {fileID: 4900706383852705332}
   - component: {fileID: 6296101910061571176}
+  - component: {fileID: 4519162289137319739}
   m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
@@ -1023,6 +1024,34 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4519162289137319739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7418090360012326910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce76b7a490bd74f34a2f2752641aea24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectFactor: 0.5
+  m_Width: 0.5
+  m_Softness: 1
+  m_Color: {r: 0.38679248, g: 0.33814096, b: 0.28644538, a: 1}
+  m_ColorMode: 2
+  m_TransitionTexture: {fileID: 2800000, guid: 3e04c247fb2604af186173fce0bc62de, type: 3}
+  m_EffectArea: 0
+  m_KeepAspectRatio: 0
+  m_Player:
+    play: 1
+    initialPlayDelay: 1
+    duration: 2
+    loop: 0
+    loopDelay: 0
+    updateMode: 0
+  m_Reverse: 1
 --- !u!1 &7513003013405872485
 GameObject:
   m_ObjectHideFlags: 0
