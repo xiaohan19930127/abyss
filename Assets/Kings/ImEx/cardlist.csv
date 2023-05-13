@@ -1,5 +1,5 @@
 GroupName,CardName,StyleName,EventScript.titleText,EventScript.questionText,EventScript.answerLeft,EventScript.answerRight,EventScript.answerUp,EventScript.answerDown
-Abyss,Role_Leviathan_01,cs_Role_Leviathan,神秘回声,恭喜，大人\n您被选中带领我们踏上征途。,你？,我？,,
+Abyss,Role_Leviathan_01,cs_Role_Leviathan_0,神秘回声,恭喜，大人\n您被选中带领我们踏上征途。,你？,我？,,
 Abyss,Role_Leviathan_02_1,cs_Role_Leviathan,神秘回声,我能控制前进的方向\n我们将共同带领城民穿越混乱的深渊。,（点头）,然后？,,
 Abyss,Role_Leviathan_02_2,cs_Role_Leviathan,神秘回声,你是被选中的人，这座城市的主人\n你的命运在深渊中等待着。,（点头）,然后？,,
 Abyss,Role_Leviathan_03,cs_Role_Leviathan,神秘回声,大人，深渊议会将要开始\n我们城市的命运掌握在您的手中\n仔细聆听并做出明智的选择,好,你要帮我,,

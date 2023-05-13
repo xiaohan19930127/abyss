@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8911511791349454924
+--- !u!1001 &4739656935932113350
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,21 +10,6 @@ PrefabInstance:
     - target: {fileID: 1818390954452748, guid: 9c3f62d10fadc468781e809756276875, type: 3}
       propertyPath: m_Name
       value: Role_Leviathan_06_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
-        type: 3}
-      propertyPath: isDrawable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
-        type: 3}
-      propertyPath: conditions.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
-        type: 3}
-      propertyPath: textFields.titleText.textContent
-      value: "\u795E\u79D8\u56DE\u58F0"
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
         type: 3}
@@ -38,14 +23,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
         type: 3}
-      propertyPath: changeValueOnCardDespawn.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
-        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u54A6\uFF0C\u770B\u6765\u4F60\u5DF2\u7ECF\u638C\u63E1\u4E86\u6210\u4E3A\u57CE\u4E3B\u7684\u57FA\u672C\u6761\u4EF6\uFF0C\u90A3\u4E48\u795D\u4F60\u597D\u8FD0"
       objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 6304711228504564798, guid: a2b3e57887d3449c58f4e27a80327772,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: 9c3f62d10fadc468781e809756276875,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 6304711228504564798, guid: a2b3e57887d3449c58f4e27a80327772,
+        type: 3}
     - target: {fileID: 224275568673289112, guid: 9c3f62d10fadc468781e809756276875,
         type: 3}
       propertyPath: m_Pivot.x
@@ -114,17 +106,17 @@ PrefabInstance:
     - target: {fileID: 224275568673289112, guid: 9c3f62d10fadc468781e809756276875,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: 9c3f62d10fadc468781e809756276875,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: 9c3f62d10fadc468781e809756276875,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: 9c3f62d10fadc468781e809756276875,
         type: 3}

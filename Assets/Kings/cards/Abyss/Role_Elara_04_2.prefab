@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6665510392869303872
+--- !u!1001 &6001894800101471968
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,16 +10,6 @@ PrefabInstance:
     - target: {fileID: 1818390954452748, guid: d4d1aacb1d5a86146bcc82292bd09334, type: 3}
       propertyPath: m_Name
       value: Role_Elara_04_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
-        type: 3}
-      propertyPath: isDrawable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
-        type: 3}
-      propertyPath: conditions.Array.size
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
@@ -38,11 +28,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
-      propertyPath: changeValueOnCardDespawn.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
-        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u611F\u8C22\u5927\u4EBA\uFF0C\u6240\u6709\u4EBA\u9000\u540E\uFF01\u5927\u4EBA\uFF0C\u8BF7\u518D\u6B21\u5E2E\u52A9\u6211\u4EEC\uFF01"
       objectReference: {fileID: 0}
@@ -50,29 +35,14 @@ PrefabInstance:
         type: 3}
       propertyPath: Results.resultLeft.modifiers.followUpCard
       value: 
-      objectReference: {fileID: 2724225974018915565, guid: f35f603cc87d34a5885a5dc5c0cb9a63,
+      objectReference: {fileID: 8130520000296614724, guid: f35f603cc87d34a5885a5dc5c0cb9a63,
         type: 3}
     - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
       propertyPath: Results.resultRight.modifiers.followUpCard
       value: 
-      objectReference: {fileID: 2724225974018915565, guid: f35f603cc87d34a5885a5dc5c0cb9a63,
+      objectReference: {fileID: 8130520000296614724, guid: f35f603cc87d34a5885a5dc5c0cb9a63,
         type: 3}
-    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
-        type: 3}
-      propertyPath: Results.resultLeft.modifiers.extras.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
-        type: 3}
-      propertyPath: Results.resultLeft.modifiers.valueChanges.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
-        type: 3}
-      propertyPath: Results.resultRight.modifiers.valueChanges.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
       propertyPath: m_Pivot.x
