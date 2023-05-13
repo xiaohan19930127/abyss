@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NewSampleCard
+  m_Name: NewSampleCard_0
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: CardPos
@@ -51,7 +51,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 66e303438873d024496fd3bc1832a54e, type: 2}
+    m_Motion: {fileID: 7400000, guid: a65db0121e27d4efb841c4070bd84684, type: 2}
     m_Threshold: -20
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -59,7 +59,7 @@ BlendTree:
     m_DirectBlendParameter: CardPos
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 7640bcb91b52368419f8c8cc62835c9b, type: 2}
+    m_Motion: {fileID: 7400000, guid: 181d92e657b604e0dabe450c012a3fc0, type: 2}
     m_Threshold: -9
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -67,7 +67,7 @@ BlendTree:
     m_DirectBlendParameter: CardPos
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ab6bcd67a27259c429bf7ba980e7da2c, type: 2}
+    m_Motion: {fileID: 7400000, guid: 40345fc1360ee4256b2d4f3fcbedd77b, type: 2}
     m_Threshold: -2
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -75,7 +75,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 06a60e4f667c8af428b3fb0915471565, type: 2}
+    m_Motion: {fileID: 7400000, guid: 76d6fd531caaa49d3a40f8c3fc5353d2, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -83,7 +83,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 12bad5f8550adba4db17aaec3e66573e, type: 2}
+    m_Motion: {fileID: 7400000, guid: 18af949a173a84dd49096203fc1243b7, type: 2}
     m_Threshold: 2
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -91,7 +91,7 @@ BlendTree:
     m_DirectBlendParameter: Blend
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: f796ff6b3df53b244bcc7f60170920b2, type: 2}
+    m_Motion: {fileID: 7400000, guid: cf5ebf590a1794d22b61a08628bf5f2b, type: 2}
     m_Threshold: 9
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -99,7 +99,7 @@ BlendTree:
     m_DirectBlendParameter: CardPos
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 9c2b84b62f2f50b4986884c9828d88ce, type: 2}
+    m_Motion: {fileID: 7400000, guid: b947f55f5928f4d9cac7161b236a6bae, type: 2}
     m_Threshold: 20
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -183,7 +183,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b99873f8edeea6d48923f38801a39928, type: 2}
+  m_Motion: {fileID: 7400000, guid: 244c0f40adbf84a6ebb7e65c992a5480, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -200,7 +200,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102369574037973870}
-    m_Position: {x: 24, y: 240, z: 0}
+    m_Position: {x: 20, y: 240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102410262696441326}
     m_Position: {x: 20, y: 170, z: 0}
@@ -209,8 +209,8 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_AnyStatePosition: {x: 40, y: 20, z: 0}
   m_EntryPosition: {x: 40, y: 100, z: 0}
-  m_ExitPosition: {x: 300, y: 48, z: 0}
+  m_ExitPosition: {x: 250, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 1102410262696441326}

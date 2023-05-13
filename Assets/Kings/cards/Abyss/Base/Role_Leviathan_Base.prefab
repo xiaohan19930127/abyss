@@ -188,7 +188,7 @@ Animator:
   m_GameObject: {fileID: 1818390954452748}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1a6b51988f567154d85ff100d67bab50, type: 2}
+  m_Controller: {fileID: 9100000, guid: cd3ec76a8de024f009c2c59189178087, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -232,22 +232,11 @@ MonoBehaviour:
       textField: {fileID: 0}
     additionalTexts: []
   isHighPriorityCard: 1
-  isDrawable: 1
+  isDrawable: 0
   cardPropability: 1
   maxDraws: 1
   redrawBlockCnt: 9999
-  conditions:
-  - type: 0
-    value: 8
-    valueMin: 0
-    valueMax: 100
-    compareType: 0
-    rValue: 0
-    itemCompareType: 1
-    item: {fileID: 0}
-    itemCmpValue: 1
-    gamedictionary_key: 
-    gamedictionary_comparer: 
+  conditions: []
   Results:
     resultLeft:
       resultType: 0
@@ -853,7 +842,7 @@ GameObject:
   - component: {fileID: 2064258839237514456}
   - component: {fileID: 248683563793718366}
   m_Layer: 0
-  m_Name: Bg
+  m_Name: Bg_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1188,7 +1177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21176472, g: 0.21176472, b: 0.21176472, a: 0.74509805}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

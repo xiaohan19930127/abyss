@@ -8,9 +8,17 @@ public class CardAnimationEventHandler : MonoBehaviour
 
     public void PlayCardSpawnSound()
     {
-        SoundEffectPlayer.Instance.PlayOneShot(cardSpawnSound);
+        if (cardSpawnSound != null)
+        {
+            SoundEffectPlayer.Instance.PlayOneShot(cardSpawnSound);
+        }
+        else
+        {
+            Debug.LogWarning("No audio clip configured for card spawn sound.");
+        }
     }
 }
+
 
 
 
