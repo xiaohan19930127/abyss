@@ -44,7 +44,7 @@ PrefabInstance:
     - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
         type: 3}
       propertyPath: textFields.questionText.textContent
-      value: "\u8BAE\u4F1A\u7ED3\u675F\\n\u4F17\u4EBA\u4F3C\u4E4E\u5BF9\u4F60\u7684\u5C0F\u9898\u5927\u505A\u8BAE\u8BBA\u7EB7\u7EB7"
+      value: "\u8BAE\u4F1A\u7ED3\u675F\uFF0C\u4F17\u4EBA\u4F3C\u4E4E\u5BF9\u4F60\u7684\u5C0F\u9898\u5927\u505A\u8BAE\u8BBA\u7EB7\u7EB7"
       objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
         type: 3}

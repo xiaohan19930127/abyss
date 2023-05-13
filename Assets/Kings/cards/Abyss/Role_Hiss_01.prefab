@@ -50,7 +50,7 @@ PrefabInstance:
     - target: {fileID: 114734209699886960, guid: da624083cba284d8f8e8545afceba162,
         type: 3}
       propertyPath: textFields.questionText.textContent
-      value: "\u543C\uFF01\uFF01\uFF01\u602A\u7269\u53D1\u51FA\u6012\u543C\uFF0C\u6446\u51FA\u4E86\u653B\u51FB\u59FF\u6001\uFF01"
+      value: "\u543C\uFF01\uFF01\uFF01\\n\u602A\u7269\u53D1\u51FA\u6012\u543C\uFF0C\u6446\u51FA\u4E86\u653B\u51FB\u59FF\u6001\uFF01"
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: da624083cba284d8f8e8545afceba162,
         type: 3}
@@ -184,5 +184,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6296101910061571176, guid: da624083cba284d8f8e8545afceba162,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d4d8b3043cb9c4862a7ca1dc7c35d39b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da624083cba284d8f8e8545afceba162, type: 3}
