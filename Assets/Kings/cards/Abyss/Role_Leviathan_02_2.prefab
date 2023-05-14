@@ -143,5 +143,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5449047114365678719, guid: 9c3f62d10fadc468781e809756276875,
+        type: 3}
+      propertyPath: cardSpawnSounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5449047114365678719, guid: 9c3f62d10fadc468781e809756276875,
+        type: 3}
+      propertyPath: cardSpawnSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 676fe86deee364cb89fd54fbc06cb77e, type: 3}
+    - target: {fileID: 5449047114365678719, guid: 9c3f62d10fadc468781e809756276875,
+        type: 3}
+      propertyPath: cardSpawnSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5589a372a100a4c6bbd63ac96105a6c1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c3f62d10fadc468781e809756276875, type: 3}

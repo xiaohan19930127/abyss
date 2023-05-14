@@ -605,7 +605,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e4338105d7544c5a56bcf9d85d6dc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardSpawnSound: {fileID: 8300000, guid: 5589a372a100a4c6bbd63ac96105a6c1, type: 3}
+  cardSpawnSounds:
+  - {fileID: 8300000, guid: 0c7099a6ffa5a4ade9fd52305a1a0554, type: 3}
+  - {fileID: 8300000, guid: 5589a372a100a4c6bbd63ac96105a6c1, type: 3}
 --- !u!1 &1865880124925572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,7 +1499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21176472, g: 0.21176472, b: 0.21176472, a: 0.74509805}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.74509805}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

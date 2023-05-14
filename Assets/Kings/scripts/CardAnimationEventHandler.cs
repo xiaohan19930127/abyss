@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class CardAnimationEventHandler : MonoBehaviour
 {
-    public AudioClip cardSpawnSound;
+    public AudioClip[] cardSpawnSounds;
 
-    public void PlayCardSpawnSound()
+    public void PlayCardSpawnSound(int index)
     {
-        if (cardSpawnSound != null)
+        if (index >= 0 && index < cardSpawnSounds.Length && cardSpawnSounds[index] != null)
         {
-            SoundEffectPlayer.Instance.PlayOneShot(cardSpawnSound);
+            SoundEffectPlayer.Instance.PlayOneShot(cardSpawnSounds[index]);
         }
         else
         {
-            Debug.LogWarning("No audio clip configured for card spawn sound.");
+            Debug.LogWarning("No audio clip configured for card spawn sound at index " + index);
         }
     }
 }

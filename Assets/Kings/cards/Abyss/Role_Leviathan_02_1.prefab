@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 1563326504670161908}
   - component: {fileID: 114734209699886960}
   - component: {fileID: 114312999991697730}
+  - component: {fileID: 1685787993538858628}
   m_Layer: 0
   m_Name: Role_Leviathan_02_1
   m_TagString: Untagged
@@ -566,6 +567,21 @@ MonoBehaviour:
     front: {fileID: 114691296766683156}
     back: {fileID: 0}
   iconImage: {fileID: 6296101910061571176}
+--- !u!114 &1685787993538858628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818390954452748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e4338105d7544c5a56bcf9d85d6dc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardSpawnSounds:
+  - {fileID: 8300000, guid: 676fe86deee364cb89fd54fbc06cb77e, type: 3}
+  - {fileID: 8300000, guid: 5589a372a100a4c6bbd63ac96105a6c1, type: 3}
 --- !u!1 &1865880124925572
 GameObject:
   m_ObjectHideFlags: 0
