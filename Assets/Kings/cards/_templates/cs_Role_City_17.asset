@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d994289b3958f42b80120c9b0bd2af, type: 3}
+  m_Name: cs_Role_City_17
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1818390954452748, guid: da624083cba284d8f8e8545afceba162, type: 3}
+  cardColor: {r: 1, g: 1, b: 1, a: 1}
+  cardFront: {fileID: 0}
+  cardBack: {fileID: 0}
+  icon: {fileID: 21300000, guid: b818cbbca5f5f468092007caf71f99d6, type: 3}
