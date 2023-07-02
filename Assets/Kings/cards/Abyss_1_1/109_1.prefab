@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1316972520439574829
+--- !u!1001 &5120878899290836068
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1818390954452748, guid: d4d1aacb1d5a86146bcc82292bd09334, type: 3}
       propertyPath: m_Name
-      value: Role_Elara_Base
+      value: 109_1
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
@@ -31,6 +31,12 @@ PrefabInstance:
       propertyPath: textFields.questionText.textContent
       value: "\u6211\u4EEC\u8FFD\u67E5\u5230\u4E86\u5F02\u6559\u5F92\u897F\u5C14\u74E6\u52AA\u65AF\\n\u4F46\u5728\u57CE\u5916\u5F88\u8FDC\u7684\u5730\u65B9"
       objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d4d1aacb1d5a86146bcc82292bd09334,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 6636422001386808008, guid: 0a8a07883b66e4a1a98f7a10e8339c37,
+        type: 3}
     - target: {fileID: 224275568673289112, guid: d4d1aacb1d5a86146bcc82292bd09334,
         type: 3}
       propertyPath: m_Pivot.x

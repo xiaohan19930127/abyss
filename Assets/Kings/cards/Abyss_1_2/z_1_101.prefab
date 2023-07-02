@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4819845535064334963
+--- !u!1001 &3475385481372401277
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1818390954452748, guid: eca3ebe91a0d24c3ba1fedbdd41c4106, type: 3}
       propertyPath: m_Name
-      value: Role_00_Base
+      value: z_1_101
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
         type: 3}
@@ -31,6 +31,18 @@ PrefabInstance:
       propertyPath: textFields.questionText.textContent
       value: "\u4F60\u63D0\u7740\u706F\uFF0C\u6765\u5230\u4E86\u7070\u6697\u8165\u81ED\u7684\u4E0B\u6C34\u9053"
       objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 7546554582950590270, guid: df2bce8dd8e884cedbe9be5c65f667c6,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 7546554582950590270, guid: df2bce8dd8e884cedbe9be5c65f667c6,
+        type: 3}
     - target: {fileID: 224275568673289112, guid: eca3ebe91a0d24c3ba1fedbdd41c4106,
         type: 3}
       propertyPath: m_Pivot.x

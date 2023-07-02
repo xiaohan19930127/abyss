@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d994289b3958f42b80120c9b0bd2af, type: 3}
   m_Name: cs_Role_City_1
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1818390954452748, guid: da624083cba284d8f8e8545afceba162, type: 3}
+  prefab: {fileID: 1818390954452748, guid: 12a849faf7a904ff3a462735c0af133c, type: 3}
   cardColor: {r: 1, g: 1, b: 1, a: 1}
   cardFront: {fileID: 0}
   cardBack: {fileID: 0}

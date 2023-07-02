@@ -9,7 +9,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1818390954452748, guid: 1801ca421a26941eb85bd36f8b5eef89, type: 3}
       propertyPath: m_Name
-      value: GameOver_Base
+      value: GameOver_Religion_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 1801ca421a26941eb85bd36f8b5eef89,
+        type: 3}
+      propertyPath: isDrawable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 1801ca421a26941eb85bd36f8b5eef89,
+        type: 3}
+      propertyPath: redrawBlockCnt
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 1801ca421a26941eb85bd36f8b5eef89,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 1801ca421a26941eb85bd36f8b5eef89,
+        type: 3}
+      propertyPath: conditions.Array.data[0].value
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 1801ca421a26941eb85bd36f8b5eef89,
         type: 3}
