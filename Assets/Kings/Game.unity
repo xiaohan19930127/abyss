@@ -5652,7 +5652,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 113077682}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6582,12 +6582,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 193118570}
   - {fileID: 822442811}
   - {fileID: 2043879767}
   - {fileID: 47639744}
   - {fileID: 797918056}
-  - {fileID: 498161582}
+  - {fileID: 193118570}
   - {fileID: 1470400453}
   m_Father: {fileID: 411315585}
   m_RootOrder: 0
@@ -12561,11 +12560,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 113077682}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22, y: -4}
+  m_AnchoredPosition: {x: 0, y: -584}
   m_SizeDelta: {x: 800, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &193118571
@@ -23088,111 +23087,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495464734}
   m_CullTransparentMesh: 0
---- !u!1 &498161581
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 498161582}
-  - component: {fileID: 498161585}
-  - component: {fileID: 498161584}
-  - component: {fileID: 498161583}
-  m_Layer: 0
-  m_Name: bg_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &498161582
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498161581}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 113077682}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -600}
-  m_SizeDelta: {x: 0, y: -1200}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &498161583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498161581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 922b805bc01c243e5853d9cbb544118c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectMode: 2
-  m_EffectFactor: 1
-  m_TransitionTexture: {fileID: 2800000, guid: 3e04c247fb2604af186173fce0bc62de, type: 3}
-  m_EffectArea: 0
-  m_KeepAspectRatio: 0
-  m_DissolveWidth: 0.5
-  m_DissolveSoftness: 0.5
-  m_DissolveColor: {r: 0, g: 0.25, b: 1, a: 1}
-  m_PassRayOnHidden: 0
-  m_Player:
-    play: 1
-    initialPlayDelay: 1
-    duration: 2
-    loop: 0
-    loopDelay: 0
-    updateMode: 0
---- !u!114 &498161584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498161581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b1095776be9c3448492156060c4f1812, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &498161585
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498161581}
-  m_CullTransparentMesh: 0
 --- !u!1 &508789666
 GameObject:
   m_ObjectHideFlags: 0
@@ -24949,8 +24843,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 999, y: -1088}
-  m_SizeDelta: {x: 160, y: 160}
+  m_AnchoredPosition: {x: 540.4, y: -1777}
+  m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586768301
 MonoBehaviour:
@@ -29583,12 +29477,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 113077682}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 600}
-  m_SizeDelta: {x: 0, y: -1200}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797918057
 MonoBehaviour:
@@ -30180,7 +30074,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 113077682}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -46743,6 +46637,187 @@ MonoBehaviour:
     - {fileID: 2679682583577718310, guid: 603ff84b326754008b9330375a85cb0d, type: 3}
     - {fileID: 3071842371648358402, guid: 852f969936505483880dd8d46d18a218, type: 3}
     - {fileID: 8130520000296614724, guid: f35f603cc87d34a5885a5dc5c0cb9a63, type: 3}
+  - groupName: Abyss_1
+    subStackCondition:
+    - type: 0
+      value: 4
+      valueMin: 0
+      valueMax: 999
+      compareType: 0
+      rValue: 0
+      itemCompareType: 0
+      item: {fileID: 0}
+      itemCmpValue: 1
+      gamedictionary_key: 
+      gamedictionary_comparer: 
+    groupCards:
+    - {fileID: 584280620436597811, guid: 17a7a68d624c346ce880e2e27ab194ce, type: 3}
+    - {fileID: 2805456256140018090, guid: 51be7a43fc6a2455a88323c0dfc07c35, type: 3}
+    - {fileID: 1727981739020761398, guid: b39084fbf683c4ef59846064f4e6b1ca, type: 3}
+    - {fileID: 3831690663109173403, guid: 8a8f2e1f897a542229388b413f4dcf6f, type: 3}
+    - {fileID: 2699581788975963055, guid: 0f8e8527fcc5940919c80b197ee2858a, type: 3}
+    - {fileID: 5930668587023311271, guid: 520b550ed150e4933a1e0b11c3026927, type: 3}
+    - {fileID: 1227538012406870541, guid: bb9ca3aef3102472a9e0a25ff85597ee, type: 3}
+    - {fileID: 1910282095253719663, guid: cfa3898a77c9e425ca57a899946efb27, type: 3}
+    - {fileID: 4613577404317437071, guid: 4e9c03fbdd9a44e4db844b6487b3448b, type: 3}
+    - {fileID: 5488817216643036487, guid: 4a984abcd4ddb4839985d8692826ffdd, type: 3}
+    - {fileID: 8930172229271232547, guid: 0b737ba408bc54bb2928d144c718f67f, type: 3}
+    - {fileID: 5124390211685467259, guid: 8411e86098ae94926b423013017b63ac, type: 3}
+    - {fileID: 6607494556048747621, guid: 2115037beba3f4af0826bd5d9fe40a55, type: 3}
+    - {fileID: 5618770627563124928, guid: 74590417b689541588b364213f61c1ac, type: 3}
+    - {fileID: 7871781575977344773, guid: 6b8b060fb1d26432a92e0eddcd636bd4, type: 3}
+    - {fileID: 705126526262029800, guid: f3bbc9feb162e4cdf95f4289bd8dabbf, type: 3}
+    - {fileID: 1421396178216567275, guid: df9b64208c117445eba4c2122f9abed6, type: 3}
+    - {fileID: 8463913177333080585, guid: e78d205348f1b46b88c8e6258e5e7c69, type: 3}
+    - {fileID: 8263302608243712398, guid: f2370682254ee4a1da49e0b42a755182, type: 3}
+    - {fileID: 6016057262438960421, guid: 0b1c9f2f555094404832efd1a5687189, type: 3}
+    - {fileID: 3828390401689940482, guid: fbbf911008517445d9290d32194a32b6, type: 3}
+    - {fileID: 4010770593058167952, guid: cb555cae7972a4a879ee5bf488a11803, type: 3}
+    - {fileID: 8185551769058744219, guid: c203e229dfea64262868febd1c833051, type: 3}
+    - {fileID: 2561013411534276419, guid: 48498d317dc674426893cd8bfc8a93cf, type: 3}
+    - {fileID: 2308705094216241703, guid: cc53c8b1f5a944fa0a2ec49b1d819076, type: 3}
+    - {fileID: 2018352813631590974, guid: 0252cab55735445f68af9ace9de1d487, type: 3}
+    - {fileID: 7390050449038699198, guid: f74d7ac15c53f448cba34bc2ebee8fdc, type: 3}
+    - {fileID: 1128713697443104032, guid: a8e330161060a4f8289d10be54e56376, type: 3}
+    - {fileID: 5091551954523966705, guid: 147f319594d1942f7890a7085f3903c7, type: 3}
+    - {fileID: 1304379049232260957, guid: 1e333426e5c6e44ef93f8cc12098ecc3, type: 3}
+    - {fileID: 9157483228389817318, guid: 695ee89cbe1fa4be5938a949774c2a53, type: 3}
+    - {fileID: 7634913870583576708, guid: deb053abbdfda421ea78e538ba42f7a0, type: 3}
+    - {fileID: 2801133045702911142, guid: 1b44de689488b47dc88f390e38241cc9, type: 3}
+    - {fileID: 7551877098877679648, guid: 77eb2191a5868442494c6298e390cbd1, type: 3}
+    - {fileID: 3919590942785658475, guid: 5580f71a44ef34f5fb3297f916c6d941, type: 3}
+    - {fileID: 774888533633909519, guid: 7dbff6596a56a4d428dec8e539f62c55, type: 3}
+    - {fileID: 5697597152362084537, guid: 46e0d95b983f843ad996dc0c8eba5805, type: 3}
+    - {fileID: 7454977932155057067, guid: 3ca887a733fd34aec8d36b04d7a262a0, type: 3}
+    - {fileID: 5857941488180999282, guid: 3f1c1cc57bc804504afe5b59fdbf5031, type: 3}
+    - {fileID: 3612134079812365728, guid: dd37b2f533f784bed889e1c2d92aaf42, type: 3}
+    - {fileID: 2534560940584004151, guid: e5015979abc6f4e09b8a8e81fbbbb3f3, type: 3}
+    - {fileID: 404566516639483625, guid: f6dc705012a584202bda6cbffa49d48c, type: 3}
+  - groupName: Abyss_1_1
+    subStackCondition:
+    - type: 0
+      value: 4
+      valueMin: 0
+      valueMax: 999
+      compareType: 0
+      rValue: 0
+      itemCompareType: 0
+      item: {fileID: 0}
+      itemCmpValue: 1
+      gamedictionary_key: 
+      gamedictionary_comparer: 
+    groupCards:
+    - {fileID: 5453917877268713861, guid: 6ab228070c0474e13a68cbd9b65c1fb9, type: 3}
+    - {fileID: 7767712699101355049, guid: 7cc1afe59c87b4ab3a6f0ed529efce24, type: 3}
+    - {fileID: 3626830462380373455, guid: 406ad7bc5d9ca48899fa8998a6767598, type: 3}
+    - {fileID: 4132051808360431932, guid: f88c2cdd4024e4a8d8fb9c5db86797bf, type: 3}
+    - {fileID: 7174782529878067318, guid: 0916e68adebe044eeadc9f2f2dbf47e9, type: 3}
+    - {fileID: 1212736119844579087, guid: 1e9acf73b2ca1465b98916a5c5065f88, type: 3}
+    - {fileID: 6623126950026055332, guid: 136f4e08c315f4f6d9fa6a40bd45cfef, type: 3}
+    - {fileID: 3798226879111239593, guid: 75d2686d32f074cedb6d7a1c78096c20, type: 3}
+    - {fileID: 8721133156313617227, guid: 9e5facd02d1ab44f4ac1b704de9f077f, type: 3}
+    - {fileID: 6186169347324413646, guid: 2ab6400a8dc964cf0a13508f9b3831cd, type: 3}
+    - {fileID: 7873586727157779514, guid: 511d2944d9b174bb78d7450dd84f9850, type: 3}
+    - {fileID: 7289511243636846341, guid: a253871fa647443b9abf0ff2e20c8c9a, type: 3}
+    - {fileID: 1376247844890414663, guid: 4dc78d1c13dc44198812761e7e5430ea, type: 3}
+    - {fileID: 9010540445238264293, guid: cd4dde5c81ef24cdcb39a2a1fc723b91, type: 3}
+    - {fileID: 2241650034348641468, guid: a1d90e2d86aa84662b3b9361963d9b72, type: 3}
+    - {fileID: 3643299501340796226, guid: 0471527afd8f7402faefe9fc2c4a23cf, type: 3}
+    - {fileID: 4848358325665837939, guid: 8ca1d095c47c347de85b3917b4e3810f, type: 3}
+    - {fileID: 1315233982595946017, guid: 253521aa172b14cc38a1c0c3e0b99972, type: 3}
+    - {fileID: 1184343451909004796, guid: ce2c8984dda934485b88cf18526c2813, type: 3}
+    - {fileID: 619798323093007363, guid: cb5deeb791eb34ab9b63a1228f3e3482, type: 3}
+    - {fileID: 329022568127772034, guid: 0fc7c5fe96a2d419abdd81b69a3ea57e, type: 3}
+    - {fileID: 7963895225848058050, guid: a103e758560744e6284dafc4e381e92b, type: 3}
+  - groupName: Abyss_1_2
+    subStackCondition:
+    - type: 0
+      value: 4
+      valueMin: 0
+      valueMax: 999
+      compareType: 0
+      rValue: 0
+      itemCompareType: 0
+      item: {fileID: 0}
+      itemCmpValue: 1
+      gamedictionary_key: 
+      gamedictionary_comparer: 
+    groupCards:
+    - {fileID: 324209001836759280, guid: 92dc659f5dbbd4d5bb4b654157ad450a, type: 3}
+    - {fileID: 867611862882944531, guid: 8ad067913946c4823881ed389f7cb2a8, type: 3}
+    - {fileID: 2290405782684789361, guid: 7d25faddb2b64421291fef071fa0c85e, type: 3}
+    - {fileID: 6097908318489018367, guid: f8badf397bc6245f9bb6c925dcface9e, type: 3}
+    - {fileID: 3711535384417996733, guid: 9d9ceef55048e41c8b7a37fd1082c6ec, type: 3}
+    - {fileID: 4133252583382861838, guid: 023391f867aff453eb7c4df500242dc4, type: 3}
+    - {fileID: 4591719732308997866, guid: 2cd056e7e47da49878eeaf3fbe492b2d, type: 3}
+    - {fileID: 2460831773732058774, guid: 7af71d932dfd64d6ca78e8d7bf5d1fbf, type: 3}
+    - {fileID: 3718923172597737279, guid: 2dfe0a7322512476e9465343c76689e5, type: 3}
+    - {fileID: 8051502721490250341, guid: 0879efe4bf5e9479183bea63581393c0, type: 3}
+    - {fileID: 1768779938518621743, guid: d1182a2d1b6f44aba9aa07f6feccba19, type: 3}
+    - {fileID: 1235500970359179490, guid: 84e776401257e4ae6aa9e391dc0fb4f3, type: 3}
+    - {fileID: 3470230269567323454, guid: 476e66830a5be4b85a3e209d95bed29f, type: 3}
+    - {fileID: 1322072302160444327, guid: b4ccda54a28094122b7f6e17ce830784, type: 3}
+    - {fileID: 5480623374502881072, guid: 3162820373ee54888bf3690a919741c5, type: 3}
+    - {fileID: 2884852130784370105, guid: ce0741ed7d6c046bda33a0fd5663ba08, type: 3}
+    - {fileID: 4794181056003906297, guid: 70a13cb57b91a4ed9b8ed3a6820f9cfd, type: 3}
+    - {fileID: 971757945733661745, guid: 2a95c5fe4c6354feb82945a2589bc367, type: 3}
+    - {fileID: 3889890512750519078, guid: f465a3d7eaed24dd69c4dbf985bea4e9, type: 3}
+    - {fileID: 900270932081745812, guid: 9b56e72f007514e7a908f0c9a0893da2, type: 3}
+    - {fileID: 4820525243189953919, guid: be7ab777886a44e62bf1bc452a1b0a78, type: 3}
+    - {fileID: 1397212845024282442, guid: 1d79a4737d7014f2193b54baa9f8811e, type: 3}
+    - {fileID: 6714017968565805701, guid: cfdb290bab4e74325a379e7bd1b8546f, type: 3}
+    - {fileID: 5203475693678456436, guid: 703be112bb11840afa75f2974769d544, type: 3}
+    - {fileID: 817114883894482044, guid: caeffe9a685dd4607bb36420c1d63f99, type: 3}
+    - {fileID: 1537083975306892445, guid: ce550daa3ca19426abe1923a34cc633b, type: 3}
+    - {fileID: 8609966845648091913, guid: e69770bf3af0645b2b835cc946a5dcb1, type: 3}
+    - {fileID: 2099918514998323233, guid: 5dc5cb5c718fd4b48a9f7b832954ff47, type: 3}
+    - {fileID: 855585998138199578, guid: bad762d564dd54460b91950f38bf2920, type: 3}
+    - {fileID: 7159044914047731081, guid: 0fbe98684be3d419f9320dbf8fca63be, type: 3}
+    - {fileID: 3247187591897732629, guid: 52ef485cf64474b778ac11793bd09eb7, type: 3}
+    - {fileID: 5577477610713228544, guid: 7ec0a3c6b28c644c191116536a8dc561, type: 3}
+    - {fileID: 5787568042319251535, guid: e95323755c42c4830931e44eb61ed49d, type: 3}
+    - {fileID: 9019877147746633226, guid: 54237d5a1cb4d42e4b291bc2527105a9, type: 3}
+    - {fileID: 2928868293499767050, guid: 7c50af5f039214b94ba4fe9f83e09752, type: 3}
+    - {fileID: 2805283512908127977, guid: 2f8dea2ca302648b9b73730e6ed0d404, type: 3}
+    - {fileID: 2592418996665897632, guid: 817bb435c79c648edb0730a1169768d7, type: 3}
+    - {fileID: 378404282398384022, guid: cc2cb0b2d95dd48d9ada7d2c1326930d, type: 3}
+    - {fileID: 2243700085865648601, guid: c1bfebb55b9fa47188af076ebfad350b, type: 3}
+    - {fileID: 1268102601883751749, guid: 5fc1f5fac2bea4fe483cfe401fcf9e80, type: 3}
+    - {fileID: 1534551567661131602, guid: 217bab83325b14264afc68943e62b7e1, type: 3}
+    - {fileID: 8163694776475023788, guid: 00b8f5854aa4346888f0d20e0461628b, type: 3}
+    - {fileID: 4506467912281780026, guid: a5b1d793d94634c5abc709c0b558f1b5, type: 3}
+    - {fileID: 2744053803899779830, guid: 109f5707f2e2e4ffa9b637942db0ea43, type: 3}
+    - {fileID: 7773619534121785400, guid: d306c2927e6034cacaa33ea0b2a908aa, type: 3}
+    - {fileID: 6698189645314438670, guid: dcdfc5ea546e148c38aab56d5d460c02, type: 3}
+    - {fileID: 1863683595335079729, guid: 59797426169094ba5ac21c8ab317bf09, type: 3}
+    - {fileID: 2912918854939010144, guid: 4635b7e0dbdf14a4aad0edd013b22dfa, type: 3}
+    - {fileID: 3927982867551136665, guid: 718e0924c801046cdbb4c93bdf0f5197, type: 3}
+    - {fileID: 4446727518040074047, guid: 2ed985a80a0f64ce7bc205d99a6567f1, type: 3}
+    - {fileID: 5004806209509096614, guid: ae290bee86ac54e59b0e0d7bbdd28aa7, type: 3}
+    - {fileID: 4808067992081531579, guid: 635842b95ff33443b9fbcd68908a69b6, type: 3}
+    - {fileID: 1574201019633813576, guid: 5f16647d1926f4fb6bf1666f5c0704b4, type: 3}
+  - groupName: Abyss_Base
+    subStackCondition:
+    - type: 0
+      value: 4
+      valueMin: 0
+      valueMax: 999
+      compareType: 0
+      rValue: 0
+      itemCompareType: 0
+      item: {fileID: 0}
+      itemCmpValue: 1
+      gamedictionary_key: 
+      gamedictionary_comparer: 
+    groupCards:
+    - {fileID: 1411889654543528892, guid: e5f60dea618e74525bb99f63141ed510, type: 3}
+    - {fileID: 611503101105566807, guid: 28b17dcf80605415f8f7ee1eda6e5ff9, type: 3}
+    - {fileID: 7524170408124159529, guid: 98073936917ea4cb788601001f996c90, type: 3}
+    - {fileID: 6752208723341312315, guid: a823f083543fb457ca9ca125885615c8, type: 3}
+    - {fileID: 5114329303406351199, guid: 6cf2213162f1744dd816fc93f6b72010, type: 3}
+    - {fileID: 8024073176502868024, guid: 6a701b0eaaa3443c69e24acf7a218e2a, type: 3}
+    - {fileID: 1094298743346506867, guid: 4b2f8db9bd6f744f89b343cec609b9b0, type: 3}
+    - {fileID: 2659289843761636574, guid: 05f83111d8b854995895d9e72098cad8, type: 3}
   cardDrawCount:
     cnt: []
   cardBlockCount:
@@ -51024,7 +51099,7 @@ RectTransform:
   - {fileID: 97389629}
   - {fileID: 385566289}
   m_Father: {fileID: 113077682}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -71664,7 +71739,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 113077682}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
