@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d994289b3958f42b80120c9b0bd2af, type: 3}
+  m_Name: CardStyle_001
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1818390954452748, guid: 1ffe1861cff904a25b87f999ccef2c22, type: 3}
+  cardColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  cardFront: {fileID: 21300000, guid: 9deb1285a608d5d42bb0001fe7994495, type: 3}
+  cardBack: {fileID: 0}
+  icon: {fileID: 21300000, guid: eaf4af68b63a9e3469935fc112e674de, type: 3}

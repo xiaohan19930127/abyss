@@ -11816,22 +11816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 922b805bc01c243e5853d9cbb544118c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectMode: 2
-  m_EffectFactor: 0.5
-  m_TransitionTexture: {fileID: 0}
-  m_EffectArea: 0
-  m_KeepAspectRatio: 0
-  m_DissolveWidth: 0.5
-  m_DissolveSoftness: 0.5
-  m_DissolveColor: {r: 0, g: 0.25, b: 1, a: 1}
-  m_PassRayOnHidden: 0
-  m_Player:
-    play: 0
-    initialPlayDelay: 0
-    duration: 1
-    loop: 0
-    loopDelay: 0
-    updateMode: 0
 --- !u!114 &130431710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20718,7 +20702,7 @@ MonoBehaviour:
       modifiers:
         valueChanges: []
         extras: []
-        followUpCard: {fileID: 1818390954452748, guid: 16b54e9c22e924267bcd10ebc9b6a4a4,
+        followUpCard: {fileID: 7645408447386526627, guid: 5f2d1b6109dcb4e359ee4aefba7d9828,
           type: 3}
         followUpDelay:
           min: 0
@@ -20799,7 +20783,7 @@ MonoBehaviour:
       modifiers:
         valueChanges: []
         extras: []
-        followUpCard: {fileID: 1818390954452748, guid: 16b54e9c22e924267bcd10ebc9b6a4a4,
+        followUpCard: {fileID: 7645408447386526627, guid: 5f2d1b6109dcb4e359ee4aefba7d9828,
           type: 3}
         followUpDelay:
           min: 0
@@ -29107,22 +29091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 922b805bc01c243e5853d9cbb544118c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectMode: 2
-  m_EffectFactor: 0.5
-  m_TransitionTexture: {fileID: 0}
-  m_EffectArea: 0
-  m_KeepAspectRatio: 0
-  m_DissolveWidth: 0.5
-  m_DissolveSoftness: 0.5
-  m_DissolveColor: {r: 0, g: 0.25, b: 1, a: 1}
-  m_PassRayOnHidden: 0
-  m_Player:
-    play: 0
-    initialPlayDelay: 0
-    duration: 1
-    loop: 0
-    loopDelay: 0
-    updateMode: 0
 --- !u!114 &797918058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46232,7 +46200,7 @@ MonoBehaviour:
     subStackCondition:
     - type: 0
       value: 4
-      valueMin: 0
+      valueMin: 999
       valueMax: 999
       compareType: 0
       rValue: 0
@@ -46288,7 +46256,7 @@ MonoBehaviour:
     subStackCondition:
     - type: 0
       value: 4
-      valueMin: 0
+      valueMin: 999
       valueMax: 999
       compareType: 0
       rValue: 0
@@ -46324,7 +46292,7 @@ MonoBehaviour:
     subStackCondition:
     - type: 0
       value: 4
-      valueMin: 0
+      valueMin: 999
       valueMax: 999
       compareType: 0
       rValue: 0
@@ -46391,7 +46359,7 @@ MonoBehaviour:
     subStackCondition:
     - type: 0
       value: 4
-      valueMin: 0
+      valueMin: 999
       valueMax: 999
       compareType: 0
       rValue: 0
@@ -46409,6 +46377,18 @@ MonoBehaviour:
     - {fileID: 8024073176502868024, guid: 6a701b0eaaa3443c69e24acf7a218e2a, type: 3}
     - {fileID: 1094298743346506867, guid: 4b2f8db9bd6f744f89b343cec609b9b0, type: 3}
     - {fileID: 2659289843761636574, guid: 05f83111d8b854995895d9e72098cad8, type: 3}
+  - groupName: Game_Base
+    subStackCondition: []
+    groupCards:
+    - {fileID: 7645408447386526627, guid: 5f2d1b6109dcb4e359ee4aefba7d9828, type: 3}
+    - {fileID: 7645408447386526627, guid: e7f007ac6f9e948099b4f5b181fb7016, type: 3}
+    - {fileID: 7645408447386526627, guid: 039279d81a17d4fe68a58a9235313b6f, type: 3}
+    - {fileID: 811943951180609817, guid: 165a5c5ef555a4a41adb88ee72a76a8c, type: 3}
+    - {fileID: 7645408447386526627, guid: c303367ddba8944b292e9005759f8ac2, type: 3}
+    - {fileID: 700803923943691939, guid: 8facb943c756c40518c521ac5ed06304, type: 3}
+    - {fileID: 811943951180609817, guid: 420cb881def4046a3ae79498827d2657, type: 3}
+    - {fileID: 7645408447386526627, guid: 0e05394cf45ec458f80cadfcb48250be, type: 3}
+    - {fileID: 7645408447386526627, guid: b4a5841ae36fb4e69bbe9580e02e52ce, type: 3}
   cardDrawCount:
     cnt: []
   cardBlockCount:
@@ -46423,7 +46403,7 @@ MonoBehaviour:
   moveBackSpeed: 0.05
   moveOutSpeed: 0.05
   CardParent: {fileID: 1033342118}
-  moveOutMax: 20
+  moveOutMax: 5
   onCardSwipe:
     m_PersistentCalls:
       m_Calls:
@@ -71689,8 +71669,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e811f8421d3494aa7d9ef4131b712d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  res: {x: 768, y: 1366}
-  ratio: 0.56222546
+  res: {x: 780, y: 1688}
+  ratio: 0.4620853
   ratioEvents:
   - ratio: 0
     transformModifications: []
@@ -71932,7 +71912,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  res: {x: 768, y: 1366}
+  res: {x: 780, y: 1688}
 --- !u!4 &2093690554
 Transform:
   m_ObjectHideFlags: 0
