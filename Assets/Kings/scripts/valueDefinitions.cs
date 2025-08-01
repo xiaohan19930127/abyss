@@ -24,7 +24,7 @@ public class valueDefinitions : MonoBehaviour {
 		intelligence,//智力，隐藏的阶段卡片属性//
 		charisma,//魅力，隐藏的阶段卡片属性//
 		luck,//运气，隐藏的阶段卡片属性//
-		creativity,//创造力，隐藏的阶段卡片属性//
+		creativity,//创造力，隐藏的阶段卡片属性，技术力//
 		look,//外貌//
 		health,//健康//
 		marriage,//婚姻//
@@ -38,6 +38,7 @@ public class valueDefinitions : MonoBehaviour {
         playerLevel,//玩家等级//
         admobVideo,//视频广告//
         admobBanner,//横幅广告//
+		zichan,
         /*mayor_year,
         mayor_people,
         mayor_party,
