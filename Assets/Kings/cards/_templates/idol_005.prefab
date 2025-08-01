@@ -10,12 +10,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1818390954452748, guid: 6502005903c784641935ed874514778a, type: 3}
       propertyPath: m_Name
-      value: idol_001
+      value: idol_005
       objectReference: {fileID: 0}
     - target: {fileID: 114691296766683156, guid: 6502005903c784641935ed874514778a,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 6502005903c784641935ed874514778a,
         type: 3}

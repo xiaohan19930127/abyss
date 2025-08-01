@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d994289b3958f42b80120c9b0bd2af, type: 3}
   m_Name: mo_idol_000
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1818390954452748, guid: a35376d317ca39e499ff6401c83a338e, type: 3}
+  prefab: {fileID: 1818390954452748, guid: 6502005903c784641935ed874514778a, type: 3}
   cardColor: {r: 1, g: 1, b: 1, a: 1}
   cardFront: {fileID: 21300000, guid: 29e4fbffb4ff5d34a9b06b805d5ee3eb, type: 3}
   cardBack: {fileID: 0}
