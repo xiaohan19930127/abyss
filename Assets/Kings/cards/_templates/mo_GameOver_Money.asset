@@ -16,4 +16,4 @@ MonoBehaviour:
   cardColor: {r: 1, g: 1, b: 1, a: 1}
   cardFront: {fileID: 0}
   cardBack: {fileID: 0}
-  icon: {fileID: 21300000, guid: 08a55454caad24e6dbed37a35c96dcd3, type: 3}
+  icon: {fileID: 21300000, guid: c50e07bf96711154eb613f82b0e982a8, type: 3}

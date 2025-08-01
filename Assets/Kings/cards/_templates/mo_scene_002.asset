@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34d994289b3958f42b80120c9b0bd2af, type: 3}
-  m_Name: mo_GameOver_People
+  m_Name: mo_scene_002
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1818390954452748, guid: 1801ca421a26941eb85bd36f8b5eef89, type: 3}
+  prefab: {fileID: 1818390954452748, guid: d7c082818ec8b984bbecd2e6e48b23d0, type: 3}
   cardColor: {r: 1, g: 1, b: 1, a: 1}
-  cardFront: {fileID: 0}
+  cardFront: {fileID: 21300000, guid: 29e4fbffb4ff5d34a9b06b805d5ee3eb, type: 3}
   cardBack: {fileID: 0}
-  icon: {fileID: 21300000, guid: c08b18eee97c21f42ba88cc7733dc4a5, type: 3}
+  icon: {fileID: 21300000, guid: 02720659d799fad478b454e59070f74a, type: 3}
