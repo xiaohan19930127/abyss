@@ -14,6 +14,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 6502005903c784641935ed874514778a,
         type: 3}
+      propertyPath: isDrawable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 6502005903c784641935ed874514778a,
+        type: 3}
+      propertyPath: redrawBlockCnt
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 6502005903c784641935ed874514778a,
+        type: 3}
+      propertyPath: cardPropability
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 6502005903c784641935ed874514778a,
+        type: 3}
+      propertyPath: isHighPriorityCard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 6502005903c784641935ed874514778a,
+        type: 3}
       propertyPath: textFields.titleText.textContent
       value: "\u730E\u5934"
       objectReference: {fileID: 0}

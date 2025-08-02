@@ -29,8 +29,85 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
         type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u4F60\u9009\u62E9\u548C\u516C\u53F8\u5171\u540C\u8FDB\u9000\u4F60\u9700\u8981\u5C0F\u5FC3\u7EF4\u62A4\u58F0\u671B\uFF0850%\uFF5E90%\uFF09\u5E76\u63D0\u5347\u81EA\u8EAB\u6280\u672F\u529B\uFF08\u4E0D\u76F4\u63A5\u663E\u793A\uFF09\u8FBE\u6210\u6B63\u5411\u4E8B\u4EF6"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 2849805014207182030, guid: 9ae4d0221fe26b74d95b6badb10fa8a3,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 2849805014207182030, guid: 9ae4d0221fe26b74d95b6badb10fa8a3,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[0].modifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[0].valueAdd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[0].valueSet
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[1].modifier
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[1].valueSet
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[2].modifier
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[2].valueSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[0].rndRangeAdd.max
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[0].rndRangeSet.max
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[0].modificationType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[1].modificationType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 558317cf83b3d794baf913fd6915736e,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[2].modificationType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: 558317cf83b3d794baf913fd6915736e,
         type: 3}

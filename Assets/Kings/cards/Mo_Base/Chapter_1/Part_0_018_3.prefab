@@ -29,8 +29,83 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
         type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u4F60\u9009\u62E9\u6700\u4E3A\u6781\u7AEF\u7684\u81F4\u5BCC\u4E4B\u8DEF\u5BF9\u4E8E\u4EFB\u4F55\u673A\u4F1A?\u4F60\u9700\u8981\u8FDB\u884C\u5408\u7406\u7684\u5206\u6790\u5E76\u76F8\u4FE1\u81EA\u5DF1"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[0].valueSet
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[1].modifier
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[1].valueAdd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[1].valueSet
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[2].modifier
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[2].valueAdd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[2].valueSet
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[1].rndRangeAdd.max
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[1].rndRangeSet.max
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[2].rndRangeAdd.max
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[2].rndRangeSet.max
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[0].modificationType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[1].modificationType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.data[2].modificationType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224275568673289112, guid: 77bf84f32df434a4597b68b3f92c34de,
         type: 3}

@@ -20621,7 +20621,7 @@ MonoBehaviour:
       modifiers:
         valueChanges: []
         extras: []
-        followUpCard: {fileID: 7645408447386526627, guid: 5f2d1b6109dcb4e359ee4aefba7d9828,
+        followUpCard: {fileID: 4807010804565486586, guid: 571e2c51faea9204db4f7175641b3ede,
           type: 3}
         followUpDelay:
           min: 0
@@ -20702,7 +20702,7 @@ MonoBehaviour:
       modifiers:
         valueChanges: []
         extras: []
-        followUpCard: {fileID: 7645408447386526627, guid: 5f2d1b6109dcb4e359ee4aefba7d9828,
+        followUpCard: {fileID: 4807010804565486586, guid: 571e2c51faea9204db4f7175641b3ede,
           type: 3}
         followUpDelay:
           min: 0
@@ -25097,6 +25097,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609667828}
   m_CullTransparentMesh: 0
+--- !u!1 &624083458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 624083459}
+  - component: {fileID: 624083460}
+  m_Layer: 0
+  m_Name: Fenzhi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &624083459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624083458}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1760999219}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &624083460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624083458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c26748c1f51a9aa41b86d84f82419c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valueType: 28
+  value: 0
+  debugValueChanges: 0
+  UserInterface:
+    uiScrollbar: {fileID: 0}
+    uiSlider: {fileID: 0}
+    lerpEnable: 0
+    lerpSpeed: 15
+    formatter: 0
+    lerpedValue: 0
+    textValue: {fileID: 240848429}
+    showActualization: 0
+    miniatureSprite: {fileID: 0}
+    valueDependingIcons:
+      baseIcons: []
+      valueIcon: []
+    valueChangePreview:
+      valueChangeImage: {fileID: 0}
+      valueChangeText: {fileID: 0}
+  limits:
+    min: 0
+    max: 100
+    randomMin: 0
+    randomMax: 0
+    roundToWholeNumbers: 1
+  keepValue: 1
+  events:
+    OnIncrease:
+      m_PersistentCalls:
+        m_Calls: []
+    OnDecrease:
+      m_PersistentCalls:
+        m_Calls: []
+    OnMax:
+      m_PersistentCalls:
+        m_Calls: []
+    OnMin:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &625726919
 GameObject:
   m_ObjectHideFlags: 0
@@ -35936,7 +36019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   valueType: 19
   value: 0
-  debugValueChanges: 0
+  debugValueChanges: 1
   UserInterface:
     uiScrollbar: {fileID: 0}
     uiSlider: {fileID: 0}
@@ -45732,17 +45815,6 @@ MonoBehaviour:
   - groupName: General
     subStackCondition:
     - type: 0
-      value: 22
-      valueMin: 0
-      valueMax: 0
-      compareType: 0
-      rValue: 0
-      itemCompareType: 0
-      item: {fileID: 0}
-      itemCmpValue: 1
-      gamedictionary_key: 
-      gamedictionary_comparer: 
-    - type: 0
       value: 4
       valueMin: 999
       valueMax: 999
@@ -45750,7 +45822,7 @@ MonoBehaviour:
       rValue: 0
       itemCompareType: 0
       item: {fileID: 0}
-      itemCmpValue: 1
+      itemCmpValue: 0
       gamedictionary_key: 
       gamedictionary_comparer: 
     groupCards:
@@ -46065,9 +46137,9 @@ MonoBehaviour:
   - groupName: Mo_end
     subStackCondition:
     - type: 0
-      value: 4
-      valueMin: 999
-      valueMax: 999
+      value: 19
+      valueMin: 0
+      valueMax: 100
       compareType: 0
       rValue: 0
       itemCompareType: 0
@@ -46085,18 +46157,7 @@ MonoBehaviour:
     - {fileID: 1094298743346506867, guid: 56b9204ab8323f64aa83829eb4135a7f, type: 3}
     - {fileID: 2659289843761636574, guid: fe1f868652f29234fa623cc1531f3196, type: 3}
   - groupName: Mo_chapter_0
-    subStackCondition:
-    - type: 0
-      value: 4
-      valueMin: 999
-      valueMax: 999
-      compareType: 0
-      rValue: 0
-      itemCompareType: 0
-      item: {fileID: 0}
-      itemCmpValue: 1
-      gamedictionary_key: 
-      gamedictionary_comparer: 
+    subStackCondition: []
     groupCards:
     - {fileID: 4807010804565486586, guid: 571e2c51faea9204db4f7175641b3ede, type: 3}
     - {fileID: 1271388614549549615, guid: 81e83066bd8d524499d23c80252c40b4, type: 3}
@@ -46110,9 +46171,9 @@ MonoBehaviour:
   - groupName: Mo_chapter_1
     subStackCondition:
     - type: 0
-      value: 4
-      valueMin: 999
-      valueMax: 999
+      value: 19
+      valueMin: 1
+      valueMax: 1
       compareType: 0
       rValue: 0
       itemCompareType: 0
@@ -46140,6 +46201,7 @@ MonoBehaviour:
     - {fileID: 602546898338994959, guid: 3f5bc176d6a75ed438136def54b5937f, type: 3}
     - {fileID: 8176410315858622027, guid: 46c6f64f10fe14f418f25aa00ad3e1e7, type: 3}
     - {fileID: 6299272080348320347, guid: 2af87c5cd69e5b24b941b466b19e958b, type: 3}
+    - {fileID: 6299272080348320347, guid: 01a6383aa7c4c433c86314f3e075f038, type: 3}
     - {fileID: 1867768260439970347, guid: fe706d571bd659b46914c43b3e77ebea, type: 3}
     - {fileID: 2283145209272113645, guid: cb16e5a14d215ff4a948d72bf1db19c1, type: 3}
     - {fileID: 5434547987411127905, guid: 8c3d7d1df211c924f89e9267bb3100c7, type: 3}
@@ -60935,6 +60997,7 @@ Transform:
   - {fileID: 1062229594}
   - {fileID: 649238000}
   - {fileID: 514893356}
+  - {fileID: 624083459}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1760999220
@@ -71486,8 +71549,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e811f8421d3494aa7d9ef4131b712d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  res: {x: 768, y: 1366}
-  ratio: 0.56222546
+  res: {x: 780, y: 1688}
+  ratio: 0.4620853
   ratioEvents:
   - ratio: 0
     transformModifications: []
@@ -71729,7 +71792,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  res: {x: 768, y: 1366}
+  res: {x: 780, y: 1688}
 --- !u!4 &2093690554
 Transform:
   m_ObjectHideFlags: 0

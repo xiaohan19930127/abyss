@@ -29,9 +29,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
         type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u4F60\u83B7\u5F97\u4E86\u4E00\u4EFD\u4F53\u9762\u7684\u5DE5\u4F5C\\n\u6B63\u5F0F\u6210\u4E3A\u4E00\u540D\u90FD\u5E02\u6253\u5DE5\u4EBA"
       objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 6014064787885639969, guid: 4248f2b56902a7941a4b21034f360b25,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 6014064787885639969, guid: 4248f2b56902a7941a4b21034f360b25,
+        type: 3}
     - target: {fileID: 224275568673289112, guid: 77bf84f32df434a4597b68b3f92c34de,
         type: 3}
       propertyPath: m_Pivot.x

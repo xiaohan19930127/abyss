@@ -14,8 +14,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
         type: 3}
+      propertyPath: maxDraws
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: isDrawable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: isHighPriorityCard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: conditions.Array.data[0].value
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
       propertyPath: textFields.titleText.textContent
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: conditions.Array.data[0].valueMax
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
+        type: 3}
+      propertyPath: conditions.Array.data[0].valueMin
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: 77bf84f32df434a4597b68b3f92c34de,
         type: 3}

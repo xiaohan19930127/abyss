@@ -110,8 +110,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5916024903268716825, guid: 1fb8d9adb10173741a24189df8f81368,
         type: 3}
+      propertyPath: maxDraws
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 1fb8d9adb10173741a24189df8f81368,
+        type: 3}
+      propertyPath: isDrawable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 1fb8d9adb10173741a24189df8f81368,
+        type: 3}
+      propertyPath: isHighPriorityCard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 1fb8d9adb10173741a24189df8f81368,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 1fb8d9adb10173741a24189df8f81368,
+        type: 3}
+      propertyPath: conditions.Array.data[0].value
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 1fb8d9adb10173741a24189df8f81368,
+        type: 3}
       propertyPath: textFields.titleText.textContent
       value: "\u8881\u8F85\u5C9B\uFF08\u8F85\u5BFC\u5458\uFF09"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 1fb8d9adb10173741a24189df8f81368,
+        type: 3}
+      propertyPath: conditions.Array.data[0].valueMax
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 1fb8d9adb10173741a24189df8f81368,
+        type: 3}
+      propertyPath: conditions.Array.data[0].valueMin
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5916024903268716825, guid: 1fb8d9adb10173741a24189df8f81368,
         type: 3}

@@ -125,9 +125,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5916024903268716825, guid: 88f7699a040e15f4385e590ea9e2c50f,
         type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 88f7699a040e15f4385e590ea9e2c50f,
+        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\uFF08\u6536\u8D77\u4E86\u7B11\u5BB9\uFF0C\u9760\u5728\u6905\u80CC\u4E0A\u770B\u7740\u4F60\uFF09\u6211\u4EEC\u4F1A\u518D\u8054\u7CFB\u4F60\u7684"
       objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 88f7699a040e15f4385e590ea9e2c50f,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 6299272080348320347, guid: 01a6383aa7c4c433c86314f3e075f038,
+        type: 3}
+    - target: {fileID: 5916024903268716825, guid: 88f7699a040e15f4385e590ea9e2c50f,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 6299272080348320347, guid: 01a6383aa7c4c433c86314f3e075f038,
+        type: 3}
     - target: {fileID: 6019090283313643877, guid: 88f7699a040e15f4385e590ea9e2c50f,
         type: 3}
       propertyPath: m_Name

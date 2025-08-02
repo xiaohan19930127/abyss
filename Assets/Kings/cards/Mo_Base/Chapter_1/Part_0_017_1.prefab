@@ -32,6 +32,18 @@ PrefabInstance:
       propertyPath: textFields.questionText.textContent
       value: "\u4F60\u51B3\u5B9A\u9760\u81EA\u5DF1\\n\u73AF\u987E\u56DB\u5468\uFF0C\u4F60\u89C9\u5F97\u5F53\u4E0B\u7684\u98CE\u53E3\u662F\u2026\u2026"
       objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: d7c082818ec8b984bbecd2e6e48b23d0,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 1867768260439970347, guid: fe706d571bd659b46914c43b3e77ebea,
+        type: 3}
+    - target: {fileID: 114734209699886960, guid: d7c082818ec8b984bbecd2e6e48b23d0,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 2283145209272113645, guid: cb16e5a14d215ff4a948d72bf1db19c1,
+        type: 3}
     - target: {fileID: 224275568673289112, guid: d7c082818ec8b984bbecd2e6e48b23d0,
         type: 3}
       propertyPath: m_Pivot.x

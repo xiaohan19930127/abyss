@@ -39,6 +39,7 @@ public class valueDefinitions : MonoBehaviour {
         admobVideo,//视频广告//
         admobBanner,//横幅广告//
 		zichan,
+		fenzhi,//用于临时记录分支路线
         /*mayor_year,
         mayor_people,
         mayor_party,

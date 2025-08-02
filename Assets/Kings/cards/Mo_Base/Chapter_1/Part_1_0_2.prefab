@@ -29,6 +29,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114734209699886960, guid: dfe0b8915ebd1114d87cb221062f1470,
         type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114734209699886960, guid: dfe0b8915ebd1114d87cb221062f1470,
+        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u4F60\u4ECD\u9700\u52AA\u529B\\n\u4EA6\u6216\u8005\u662F\u5927\u73AF\u5883\u7684\u95EE\u9898"
       objectReference: {fileID: 0}

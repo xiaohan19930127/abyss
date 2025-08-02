@@ -125,8 +125,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
         type: 3}
+      propertyPath: changeValueOnCardDespawn.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
+        type: 3}
       propertyPath: textFields.questionText.textContent
       value: "\u4F60\u5728\u4F60\u7684\u623F\u95F4\u5662\uFF0C\u4F60\u770B\u770B\u4F60\u6194\u60B4\u7684\\n\u90FD\u544A\u8BC9\u8FC7\u4F60\u4E86\uFF0C\u8981\u6CE8\u610F\u8EAB\u4F53\\n\u4F60\u89C9\u5F97\u5065\u5EB7\u662F\u4EC0\u4E48\uFF1F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 330066075280768141, guid: b608ecea63a29fa4f94ad16ab14abfbd,
+        type: 3}
+    - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.followUpCard
+      value: 
+      objectReference: {fileID: 330066075280768141, guid: b608ecea63a29fa4f94ad16ab14abfbd,
+        type: 3}
+    - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.valueChanges.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.valueChanges.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.valueChanges.Array.data[0].modifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
+        type: 3}
+      propertyPath: Results.resultLeft.modifiers.valueChanges.Array.data[0].valueAdd
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.valueChanges.Array.data[0].modifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 90072eab9ff943b42949f365eddc539f,
+        type: 3}
+      propertyPath: Results.resultRight.modifiers.valueChanges.Array.data[0].valueAdd
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 6019090283313643877, guid: 90072eab9ff943b42949f365eddc539f,
         type: 3}

@@ -110,8 +110,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
         type: 3}
+      propertyPath: isDrawable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
+        type: 3}
+      propertyPath: redrawBlockCnt
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
+        type: 3}
+      propertyPath: cardPropability
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
+        type: 3}
+      propertyPath: isHighPriorityCard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
+        type: 3}
+      propertyPath: conditions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
+        type: 3}
+      propertyPath: conditions.Array.data[0].value
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
+        type: 3}
       propertyPath: textFields.titleText.textContent
       value: "\u674E\u535A\u65AF\\n\uFF08\u4F60\u7684BOSS\uFF09"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
+        type: 3}
+      propertyPath: conditions.Array.data[0].valueMax
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
+        type: 3}
+      propertyPath: conditions.Array.data[0].valueMin
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5916024903268716825, guid: 52f6d79b300be48418b7ba73685e9ae5,
         type: 3}
